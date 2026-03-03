@@ -1,0 +1,230 @@
+{
+  "brand": "Toyota",
+  "model": {
+    "name": "Veloz",
+    "description": "Toyota Veloz - Premium MPV 7-seater Indonesia (Model terpisah dari Avanza sejak akhir 2021)"
+  },
+  "body_type": "MPV",
+  
+  "specifications": {
+    "doors": 5,
+    "seating_capacity": 7,
+    "pickup": false,
+    "box": false,
+    "luxury_mpv": true,
+    "premium_segment": true
+  },
+  
+  "origin": "CKD",
+  
+  "generations": [
+    {
+      "name": "Generasi 3 (W101 - All New Veloz)",
+      "year_start": 2021,
+      "year_end": null,
+      
+      "specifications": {
+        "drive": "FWD",
+        "platform": "DNGA (Daihatsu New Global Architecture)",
+        "suspension_front": "MacPherson Strut with Stabilizer",
+        "suspension_rear": "Torsion Beam with Stabilizer",
+        "brake_front": "Ventilated Disc",
+        "brake_rear": "Disc (Q & Q TSS), Drum (Standard)",
+        "length_mm": 4475,
+        "width_mm": 1750,
+        "height_mm": 1700,
+        "wheelbase_mm": 2750,
+        "ground_clearance_mm": 195,
+        "fuel_tank_l": 43,
+        "kerb_weight_kg": 1245,
+        "turning_radius_m": 5.2,
+        "drag_coefficient": 0.29,
+        "boot_space_l": 204,
+        "maximum_cargo_l": 1030,
+        "segment": "Premium MPV",
+        "vehicle_class": "C-Segment MPV"
+      },
+      
+      "variants": [
+        {
+          "trim": "Standard",
+          "years": [2021, 2022, 2023, 2024, 2025],
+          "features": [
+            "Electric Parking Brake with Auto Hold",
+            "7 Inch Digital TFT MID",
+            "9 Inch Display Audio",
+            "Wireless Charger",
+            "LED Rear Combination Lamp",
+            "Dual Airbag",
+            "ABS + EBD + BA",
+            "VSC",
+            "HSA",
+            "ISOFIX",
+            "Keyless Entry",
+            "Push Start/Stop Button",
+            "Digital AC",
+            "Apple CarPlay & Android Auto",
+            "Rear Seat Entertainment"
+          ],
+          "engines": [
+            {
+              "cc": 1496,
+              "engine_code": "2NR-VE",
+              "fuel_type": "Bensin",
+              "transmissions": ["MT", "CVT"],
+              "power_hp": 105,
+              "torque_nm": 138,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "Dual VVT-i",
+              "engine_position": "Front Transverse",
+              "compression_ratio": "13.5:1",
+              "emission_standard": "Euro 4",
+              "engine_type": "Naturally Aspirated",
+              "max_power_rpm": 6000,
+              "max_torque_rpm": 4200
+            }
+          ],
+          "specifications": {
+            "wheel_size": "16-inch alloy",
+            "tyre_size": "195/60 R16",
+            "seats_material": "Fabric Premium",
+            "seat_arrangement": "2-3-2",
+            "third_row_seat": "Foldable 50:50 split",
+            "steering_wheel": "Leather-wrapped, tilt & telescopic",
+            "instrument_cluster": "7-inch TFT MID + analog dials",
+            "infotainment_system": "9-inch touchscreen",
+            "connectivity": "Apple CarPlay, Android Auto, Bluetooth",
+            "audio_system": "6-speaker system",
+            "air_con_system": "Digital automatic climate control",
+            "parking_sensors": "Rear only",
+            "camera_system": "Rearview camera with dynamic guidelines",
+            "lighting_front": "LED headlights with DRL",
+            "lighting_rear": "LED combination lamps",
+            "mirrors": "Power-adjustable, power folding",
+            "windows": "Power windows all doors with auto up/down driver",
+            "safety_airbags": "2 (Driver & passenger)",
+            "safety_rating": "ASEAN NCAP 5-star",
+            "electric_parking_brake": "With auto hold function",
+            "usb_ports": "Front (2x), Rear (1x)",
+            "charging_ports": "12V front, 12V rear, Wireless charger"
+          }
+        },
+        {
+          "trim": "Q",
+          "years": [2021, 2022, 2023, 2024, 2025],
+          "features": [
+            "All features in Standard Trim",
+            "17 Inch Alloy Wheel",
+            "All-round View Monitor (Camera 360)",
+            "T-Intouch Telematics",
+            "Outer Mirror with Foot Lamp",
+            "Disk Brake on All Wheels"
+          ],
+          "engines": [
+            {
+              "cc": 1496,
+              "engine_code": "2NR-VE",
+              "fuel_type": "Bensin",
+              "transmissions": ["CVT"],
+              "power_hp": 105,
+              "torque_nm": 138,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "Dual VVT-i",
+              "engine_position": "Front Transverse",
+              "compression_ratio": "13.5:1",
+              "emission_standard": "Euro 4",
+              "engine_type": "Naturally Aspirated",
+              "max_power_rpm": 6000,
+              "max_torque_rpm": 4200
+            }
+          ],
+          "specifications": {
+            "wheel_size": "17-inch alloy (diamond cut)",
+            "tyre_size": "205/55 R17",
+            "seats_material": "Semi-leather",
+            "seat_arrangement": "2-3-2",
+            "third_row_seat": "Foldable 50:50 split with recline",
+            "infotainment_system": "9-inch touchscreen with navigation",
+            "connectivity": "T-Intouch telematics, WiFi hotspot",
+            "camera_system": "360-degree camera system",
+            "parking_sensors": "Front & rear",
+            "brake_system": "Disc brakes all wheels",
+            "exterior_features": "Chrome door handles, chrome window trim",
+            "mirror_features": "Auto folding with puddle lamps",
+            "interior_trim": "Premium soft-touch dashboard",
+            "ambient_lighting": "Dashboard accent lighting",
+            "smart_entry": "All doors",
+            "cruise_control": "Adaptive cruise control",
+            "audio_system": "6-speaker premium system",
+            "storage_spaces": "10+ storage compartments",
+            "armrests": "Front center with storage",
+            "seat_adjustment": "Driver 6-way manual, passenger 4-way manual",
+            "sun_visors": "Vanity mirrors with illumination"
+          }
+        },
+        {
+          "trim": "Q TSS",
+          "years": [2021, 2022, 2023, 2024, 2025],
+          "features": [
+            "All features in Q Trim",
+            "Toyota Safety Sense (TSS)",
+            "Pre-Collision System (PCS)",
+            "Front Departure Alert",
+            "Lane Departure Assist",
+            "Pedal Misoperation Control",
+            "Rear Cross Traffic Alert (RCTA)",
+            "Blind Spot Monitoring (BSM)",
+            "6 Airbags"
+          ],
+          "engines": [
+            {
+              "cc": 1496,
+              "engine_code": "2NR-VE",
+              "fuel_type": "Bensin",
+              "transmissions": ["CVT"],
+              "power_hp": 105,
+              "torque_nm": 138,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "Dual VVT-i",
+              "engine_position": "Front Transverse",
+              "compression_ratio": "13.5:1",
+              "emission_standard": "Euro 4",
+              "engine_type": "Naturally Aspirated",
+              "max_power_rpm": 6000,
+              "max_torque_rpm": 4200
+            }
+          ],
+          "specifications": {
+            "wheel_size": "17-inch alloy (diamond cut)",
+            "tyre_size": "205/55 R17",
+            "seats_material": "Semi-leather with contrast stitching",
+            "safety_airbags": "6 (Driver, passenger, side, curtain)",
+            "safety_systems": "Toyota Safety Sense (TSS) suite",
+            "pre_collision_system": "With pedestrian detection",
+            "lane_assist": "Lane Departure Alert with Steering Assist",
+            "adaptive_cruise_control": "Full-speed range",
+            "auto_high_beam": "Automatic high beam control",
+            "road_sign_assist": "Recognizes traffic signs",
+            "blind_spot_monitor": "With RCTA",
+            "driver_attention_monitor": "Attention warning system",
+            "pedal_misoperation": "Prevents sudden acceleration",
+            "hill_assist": "Hill Start Assist (HSA)",
+            "traction_control": "TRC (Traction Control)",
+            "vehicle_stability": "VSC (Vehicle Stability Control)",
+            "brake_assist": "BA (Brake Assist)",
+            "electronic_brakeforce": "EBD (Electronic Brakeforce Distribution)",
+            "isofix": "2 sets (2nd row)",
+            "child_protection": "Rear door child lock",
+            "security_system": "Immobilizer with alarm",
+            "head_up_display": "Optional",
+            "premium_badge": "Q TSS badging",
+            "exclusive_color": "Premium paint options"
+          }
+        }
+      ]
+    }
+  ]
+}

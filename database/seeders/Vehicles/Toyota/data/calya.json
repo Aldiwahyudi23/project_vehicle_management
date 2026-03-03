@@ -1,0 +1,334 @@
+{
+  "brand": "Toyota",
+  "model": {
+    "name": "Calya",
+    "description": "Toyota Calya - MPV LCGC 7-Seater Indonesia (Twin dari Daihatsu Sigra)"
+  },
+  "body_type": "MPV",
+  
+  "specifications": {
+    "doors": 5,
+    "seating_capacity": 7,
+    "pickup": false,
+    "box": false
+  },
+  
+  "origin": "CKD",
+  
+  "generations": [
+    {
+      "name": "Generasi Awal (2016-2018)",
+      "year_start": 2016,
+      "year_end": 2018,
+      
+      "specifications": {
+        "drive": "FWD",
+        "platform": "Daihatsu A-Series",
+        "suspension_front": "MacPherson Strut",
+        "suspension_rear": "Torsion Beam",
+        "brake_front": "Disc",
+        "brake_rear": "Drum",
+        "length_mm": 4070,
+        "width_mm": 1620,
+        "height_mm": 1635,
+        "wheelbase_mm": 2525,
+        "ground_clearance_mm": 180,
+        "fuel_tank_l": 40
+      },
+      
+      "variants": [
+        {
+          "trim": "E",
+          "years": [2016, 2017, 2018],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock"
+          ],
+          "engines": [
+            {
+              "cc": 1197,
+              "engine_code": "3NR-VE",
+              "fuel_type": "Bensin",
+              "transmissions": ["MT"],
+              "power_hp": 87,
+              "torque_nm": 113,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "EFI",
+              "engine_position": "Front Transverse"
+            }
+          ],
+          "specifications": {
+            "wheel_size": "14-inch steel",
+            "tyre_size": "165/70 R14",
+            "seats_material": "Fabric",
+            "seat_arrangement": "2-3-2",
+            "third_row_seat": "Foldable"
+          }
+        },
+        {
+          "trim": "G",
+          "years": [2016, 2017, 2018],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock",
+            "Airbag",
+            "ABS",
+            "Alloy Wheel",
+            "Audio Steering",
+            "Fog Lamp"
+          ],
+          "engines": [
+            {
+              "cc": 1197,
+              "engine_code": "3NR-VE",
+              "fuel_type": "Bensin",
+              "transmissions": ["MT", "AT"],
+              "power_hp": 87,
+              "torque_nm": 113,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "EFI",
+              "engine_position": "Front Transverse"
+            }
+          ],
+          "specifications": {
+            "wheel_size": "14-inch alloy",
+            "tyre_size": "165/70 R14",
+            "seats_material": "Fabric",
+            "seat_arrangement": "2-3-2",
+            "third_row_seat": "Foldable",
+            "audio_speakers": 4,
+            "power_outlet": "12V front"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Facelift Pertama (2019-2021)",
+      "year_start": 2019,
+      "year_end": 2021,
+      
+      "specifications": {
+        "drive": "FWD",
+        "platform": "Daihatsu A-Series",
+        "suspension_front": "MacPherson Strut",
+        "suspension_rear": "Torsion Beam",
+        "brake_front": "Disc",
+        "brake_rear": "Drum",
+        "length_mm": 4070,
+        "width_mm": 1620,
+        "height_mm": 1635,
+        "wheelbase_mm": 2525,
+        "ground_clearance_mm": 180,
+        "fuel_tank_l": 40,
+        "kerb_weight_kg": 1010
+      },
+      
+      "variants": [
+        {
+          "trim": "E",
+          "years": [2019, 2020, 2021],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock",
+            "Airbag",
+            "ABS",
+            "EBD"
+          ],
+          "engines": [
+            {
+              "cc": 1197,
+              "engine_code": "3NR-VE",
+              "fuel_type": "Bensin",
+              "transmissions": ["MT"],
+              "power_hp": 87,
+              "torque_nm": 113,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "Dual VVT-i",
+              "engine_position": "Front Transverse"
+            }
+          ],
+          "specifications": {
+            "wheel_size": "14-inch steel",
+            "tyre_size": "165/70 R14",
+            "seats_material": "Fabric",
+            "seat_arrangement": "2-3-2",
+            "third_row_seat": "Foldable",
+            "steering_wheel": "3-spoke urethane",
+            "instrument_cluster": "Analog"
+          }
+        },
+        {
+          "trim": "G",
+          "years": [2019, 2020, 2021],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock",
+            "Airbag",
+            "ABS",
+            "EBD",
+            "Alloy Wheel",
+            "Audio Steering",
+            "Fog Lamp",
+            "Touchscreen",
+            "Camera Belakang"
+          ],
+          "engines": [
+            {
+              "cc": 1197,
+              "engine_code": "3NR-VE",
+              "fuel_type": "Bensin",
+              "transmissions": ["MT", "AT"],
+              "power_hp": 87,
+              "torque_nm": 113,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "Dual VVT-i",
+              "engine_position": "Front Transverse"
+            }
+          ],
+          "specifications": {
+            "wheel_size": "14-inch alloy",
+            "tyre_size": "165/70 R14",
+            "seats_material": "Fabric",
+            "seat_arrangement": "2-3-2",
+            "third_row_seat": "Foldable",
+            "audio_speakers": 4,
+            "infotainment_size": "7-inch",
+            "rear_ac": "Ventilation only",
+            "power_outlet": "12V front & rear"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Facelift Kedua / Update (2022-Sekarang)",
+      "year_start": 2022,
+      "year_end": null,
+      
+      "specifications": {
+        "drive": "FWD",
+        "platform": "Daihatsu A-Series",
+        "suspension_front": "MacPherson Strut",
+        "suspension_rear": "Torsion Beam",
+        "brake_front": "Ventilated Disc",
+        "brake_rear": "Drum",
+        "length_mm": 4070,
+        "width_mm": 1620,
+        "height_mm": 1635,
+        "wheelbase_mm": 2525,
+        "ground_clearance_mm": 180,
+        "fuel_tank_l": 40,
+        "kerb_weight_kg": 1025,
+        "drag_coefficient": 0.33
+      },
+      
+      "variants": [
+        {
+          "trim": "E",
+          "years": [2022, 2023, 2024, 2025],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock",
+            "Airbag",
+            "ABS",
+            "EBD",
+            "BA"
+          ],
+          "engines": [
+            {
+              "cc": 1197,
+              "engine_code": "3NR-VE",
+              "fuel_type": "Bensin",
+              "transmissions": ["MT"],
+              "power_hp": 87,
+              "torque_nm": 113,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "Dual VVT-i",
+              "engine_position": "Front Transverse",
+              "emission_standard": "Euro 4"
+            }
+          ],
+          "specifications": {
+            "wheel_size": "14-inch steel with cover",
+            "tyre_size": "165/70 R14",
+            "seats_material": "Fabric",
+            "seat_arrangement": "2-3-2",
+            "third_row_seat": "Foldable 50:50",
+            "steering_wheel": "3-spoke urethane",
+            "instrument_cluster": "Analog + MID",
+            "safety_rating": "ASEAN NCAP 3-star"
+          }
+        },
+        {
+          "trim": "G",
+          "years": [2022, 2023, 2024, 2025],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock",
+            "Airbag",
+            "ABS",
+            "EBD",
+            "BA",
+            "VSC",
+            "HSA",
+            "ISOFIX",
+            "Alloy Wheel",
+            "Audio Steering",
+            "Fog Lamp",
+            "Touchscreen",
+            "Camera Belakang",
+            "LED Headlight",
+            "DRL",
+            "Defogger"
+          ],
+          "engines": [
+            {
+              "cc": 1197,
+              "engine_code": "3NR-VE",
+              "fuel_type": "Bensin",
+              "transmissions": ["MT", "AT"],
+              "power_hp": 87,
+              "torque_nm": 113,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "Dual VVT-i",
+              "engine_position": "Front Transverse",
+              "emission_standard": "Euro 4"
+            }
+          ],
+          "specifications": {
+            "wheel_size": "14-inch alloy",
+            "tyre_size": "165/70 R14",
+            "seats_material": "Fabric",
+            "seat_arrangement": "2-3-2",
+            "third_row_seat": "Foldable 50:50",
+            "audio_speakers": 6,
+            "infotainment_size": "8-inch",
+            "rear_ac": "Ceiling mounted blower",
+            "power_outlet": "12V front & rear + USB",
+            "headlight_type": "LED Projector",
+            "daytime_running_lights": "LED",
+            "safety_rating": "ASEAN NCAP 4-star",
+            "camera_type": "Rearview with guidelines"
+          }
+        }
+      ]
+    }
+  ]
+}

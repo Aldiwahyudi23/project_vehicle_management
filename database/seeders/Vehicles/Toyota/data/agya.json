@@ -1,0 +1,312 @@
+{
+  "brand": "Toyota",
+  "model": {
+    "name": "Agya",
+    "description": "Toyota Agya - City Car 5-seater Indonesia (Twin dari Daihatsu Ayla)"
+  },
+  "body_type": "Hatchback",
+  
+  "specifications": {
+    "doors": 5,
+    "seating_capacity": 5,
+    "pickup": false,
+    "box": false
+  },
+  
+  "origin": "CKD",
+  
+  "generations": [
+    {
+      "name": "Generasi 1 (2013-2022)",
+      "year_start": 2013,
+      "year_end": 2022,
+      
+      "specifications": {
+        "drive": "FWD",
+        "platform": "Daihatsu A-Series",
+        "suspension_front": "MacPherson Strut",
+        "suspension_rear": "Torsion Beam",
+        "brake_front": "Disc",
+        "brake_rear": "Drum",
+        "length_mm": 3660,
+        "width_mm": 1600,
+        "height_mm": 1520,
+        "wheelbase_mm": 2455
+      },
+      
+      "variants": [
+        {
+          "trim": "E",
+          "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Central Lock"
+          ],
+          "engines": [
+            {
+              "cc": 998,
+              "engine_code": "1KR-VE",
+              "fuel_type": "Bensin",
+              "transmissions": ["MT"],
+              "power_hp": 66,
+              "torque_nm": 89,
+              "cylinders": 3,
+              "valves": 12,
+              "fuel_system": "EFI"
+            }
+          ]
+        },
+        {
+          "trim": "G",
+          "years": [2013, 2014, 2015, 2016],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock",
+            "Airbag"
+          ],
+          "engines": [
+            {
+              "cc": 998,
+              "engine_code": "1KR-VE",
+              "fuel_type": "Bensin",
+              "transmissions": ["MT", "AT"],
+              "power_hp": 66,
+              "torque_nm": 89,
+              "cylinders": 3,
+              "valves": 12,
+              "fuel_system": "EFI"
+            }
+          ]
+        },
+        {
+          "trim": "G",
+          "years": [2017, 2018, 2019, 2020, 2021, 2022],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock",
+            "Airbag",
+            "ABS",
+            "EBD",
+            "Alloy Wheel",
+            "Audio Steering",
+            "Fog Lamp",
+            "Tilt Steering"
+          ],
+          "engines": [
+            {
+              "cc": 1197,
+              "engine_code": "1NR-VE",
+              "fuel_type": "Bensin",
+              "transmissions": ["MT", "AT"],
+              "power_hp": 88,
+              "torque_nm": 113,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "Dual VVT-i"
+            }
+          ]
+        },
+        {
+          "trim": "TRD Sportivo",
+          "years": [2017, 2018, 2019, 2020, 2021, 2022],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock",
+            "Airbag",
+            "ABS",
+            "EBD",
+            "Alloy Wheel",
+            "Audio Steering",
+            "Fog Lamp",
+            "Tilt Steering",
+            "Touchscreen",
+            "Camera Belakang",
+            "Keyless Entry",
+            "Start Stop Button"
+          ],
+          "engines": [
+            {
+              "cc": 1197,
+              "engine_code": "1NR-VE",
+              "fuel_type": "Bensin",
+              "transmissions": ["MT", "AT"],
+              "power_hp": 88,
+              "torque_nm": 113,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "Dual VVT-i"
+            }
+          ],
+          "specifications": {
+            "body_kit": "TRD Sportivo",
+            "spoiler": "Rear",
+            "side_skirt": true,
+            "front_lip": true
+          }
+        }
+      ]
+    },
+    {
+      "name": "Generasi 2 (2023-Sekarang)",
+      "year_start": 2023,
+      "year_end": null,
+      
+      "specifications": {
+        "drive": "FWD",
+        "platform": "DNGA (Daihatsu New Global Architecture)",
+        "suspension_front": "MacPherson Strut",
+        "suspension_rear": "Torsion Beam",
+        "brake_front": "Ventilated Disc",
+        "brake_rear": "Drum",
+        "length_mm": 3760,
+        "width_mm": 1665,
+        "height_mm": 1520,
+        "wheelbase_mm": 2525,
+        "ground_clearance_mm": 155,
+        "fuel_tank_l": 36
+      },
+      
+      "variants": [
+        {
+          "trim": "E",
+          "years": [2023, 2024, 2025],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock",
+            "Airbag",
+            "ABS",
+            "EBD",
+            "BA"
+          ],
+          "engines": [
+            {
+              "cc": 1198,
+              "engine_code": "WA-VE",
+              "fuel_type": "Bensin",
+              "transmissions": ["MT"],
+              "power_hp": 88,
+              "torque_nm": 113,
+              "cylinders": 3,
+              "valves": 12,
+              "fuel_system": "Dual VVT-iE",
+              "compression_ratio": "13.5:1"
+            }
+          ],
+          "specifications": {
+            "wheel_size": "14-inch steel",
+            "tyre_size": "165/70 R14",
+            "seats_material": "Fabric"
+          }
+        },
+        {
+          "trim": "G",
+          "years": [2023, 2024, 2025],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock",
+            "Airbag",
+            "ABS",
+            "EBD",
+            "BA",
+            "VSC",
+            "HSA",
+            "ISOFIX",
+            "Alloy Wheel",
+            "Audio Steering",
+            "Touchscreen",
+            "Camera Belakang",
+            "LED Headlight",
+            "DRL",
+            "Defogger"
+          ],
+          "engines": [
+            {
+              "cc": 1198,
+              "engine_code": "WA-VE",
+              "fuel_type": "Bensin",
+              "transmissions": ["MT", "CVT"],
+              "power_hp": 88,
+              "torque_nm": 113,
+              "cylinders": 3,
+              "valves": 12,
+              "fuel_system": "Dual VVT-iE",
+              "compression_ratio": "13.5:1"
+            }
+          ],
+          "specifications": {
+            "wheel_size": "15-inch alloy",
+            "tyre_size": "175/65 R15",
+            "seats_material": "Fabric",
+            "headlight_type": "LED Projector",
+            "audio_speakers": 4
+          }
+        },
+        {
+          "trim": "GR Sport",
+          "years": [2023, 2024, 2025],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock",
+            "Airbag",
+            "ABS",
+            "EBD",
+            "BA",
+            "VSC",
+            "HSA",
+            "ISOFIX",
+            "Alloy Wheel",
+            "Audio Steering",
+            "Touchscreen",
+            "Camera Belakang",
+            "Keyless Entry",
+            "Start Stop Button",
+            "LED Headlight",
+            "DRL",
+            "Sensor Parkir",
+            "Defogger",
+            "Digital AC"
+          ],
+          "engines": [
+            {
+              "cc": 1198,
+              "engine_code": "WA-VE",
+              "fuel_type": "Bensin",
+              "transmissions": ["MT", "CVT"],
+              "power_hp": 88,
+              "torque_nm": 113,
+              "cylinders": 3,
+              "valves": 12,
+              "fuel_system": "Dual VVT-iE",
+              "compression_ratio": "13.5:1"
+            }
+          ],
+          "specifications": {
+            "wheel_size": "15-inch alloy (GR Design)",
+            "tyre_size": "175/65 R15",
+            "seats_material": "Fabric (GR Sport)",
+            "body_kit": "GR Sport",
+            "spoiler": "Rear (GR Design)",
+            "side_skirt": true,
+            "front_grille": "GR Mesh",
+            "sport_pedals": true,
+            "audio_speakers": 6,
+            "infotainment_size": "9-inch"
+          }
+        }
+      ]
+    }
+  ]
+}
