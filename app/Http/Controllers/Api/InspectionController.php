@@ -125,5 +125,70 @@ class InspectionController extends Controller
             ], 500);
         }
     }
+    public function getVehicleDetailForInspectionForm($id): JsonResponse
+    {
+        try {
+            // Load vehicle detail dengan relasi yang diperlukan
+            $vehicleDetail = VehicleDetail::with(['brand', 'model', 'type', 'transmission', 'features'])
+                ->findOrFail($id);
+            // Format data untuk inspection form
+            $data = [
+                    'brand' => [
+                        'id' => $vehicleDetail->brand?->id,
+                        'name' => $vehicleDetail->brand?->name,
+                    ],
+
+                    'model' => [
+                        'id' => $vehicleDetail->model?->id,
+                        'name' => $vehicleDetail->model?->name,
+                    ],
+
+                    'type' => [
+                        'id' => $vehicleDetail->type?->id,
+                        'name' => $vehicleDetail->type?->name,
+                    ],
+
+                    'year' => $vehicleDetail->year,
+
+                    'cc' => [
+                        'cc' => $vehicleDetail->cc,
+                        'name' => $vehicleDetail->format_cc, // dari accessor model
+                    ],
+
+                    'transmission' => [
+                        'id' => $vehicleDetail->transmission?->id,
+                        'name' => $vehicleDetail->transmission?->name,
+                    ],
+
+                    'fuel_type' => $vehicleDetail->fuel_type,
+
+                    'market_period' => $vehicleDetail->market_period,
+
+                    'vehicle_id' => $vehicleDetail->id,
+
+                    'vehicle_name' => $vehicleDetail->full_name, // dari accessor model
+            ];
+
+            return response()->json([
+                'success' => true,
+                'message' => 'Vehicle detail retrieved successfully',
+                'data' => $data
+            ], 200);
+
+        } catch (\Illuminate\Database\Eloquent\ModelNotFoundException $e) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Vehicle detail not found',
+                'data' => null
+            ], 404);
+        } catch (\Exception $e) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Failed to retrieve vehicle detail: ' . $e->getMessage(),
+                'data' => null
+            ], 500);
+        }
+    }
+
 
 }

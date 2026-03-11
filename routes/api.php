@@ -353,35 +353,45 @@ Route::prefix('vehicle')->group(function () {
     
     // Step-by-step selection endpoints
     Route::prefix('selection')->group(function () {
+        // Step 1: Get Brands
         Route::get('/brands', [VehicleSearchController::class, 'getAvailableBrands'])
             ->middleware(['auth:sanctum', 'ability:vehicles:read']);
         
+        // Step 2: Get Models (requires brand_id)
         Route::get('/models', [VehicleSearchController::class, 'getAvailableModels'])
             ->middleware(['auth:sanctum', 'ability:vehicles:read']);
         
+        // Step 3: Get Types (requires brand_id, model_id)
         Route::get('/types', [VehicleSearchController::class, 'getAvailableTypes'])
             ->middleware(['auth:sanctum', 'ability:vehicles:read']);
         
-        Route::get('/cc', [VehicleSearchController::class, 'getAvailableCC'])
-            ->middleware(['auth:sanctum', 'ability:vehicles:read']);
-        
+        // STEP 4: GET YEARS (URUTAN BARU - setelah type, sebelum cc)
+        // Requires: brand_id, model_id, type_id
         Route::get('/years', [VehicleSearchController::class, 'getAvailableYears'])
             ->middleware(['auth:sanctum', 'ability:vehicles:read']);
         
+        // STEP 5: GET CC (URUTAN BARU - setelah year)
+        // Requires: brand_id, model_id, type_id, year
+        Route::get('/cc', [VehicleSearchController::class, 'getAvailableCC'])
+            ->middleware(['auth:sanctum', 'ability:vehicles:read']);
+        
+        // Step 6: Get Transmissions (requires brand_id, model_id, type_id, year, cc)
         Route::get('/transmissions', [VehicleSearchController::class, 'getAvailableTransmissions'])
             ->middleware(['auth:sanctum', 'ability:vehicles:read']);
         
+        // Step 7: Get Fuel Types (requires brand_id, model_id, type_id, year, cc, transmission_id)
         Route::get('/fuel-types', [VehicleSearchController::class, 'getAvailableFuelTypes'])
             ->middleware(['auth:sanctum', 'ability:vehicles:read']);
         
+        // Step 8: Get Market Periods (requires brand_id, model_id, type_id, year, cc, transmission_id, fuel_type)
         Route::get('/market-periods', [VehicleSearchController::class, 'getAvailableMarketPeriods'])
             ->middleware(['auth:sanctum', 'ability:vehicles:read']);
         
+        // Step 9: Get Final Vehicle Detail ID (requires all previous params)
         Route::get('/get-detail', [VehicleSearchController::class, 'getVehicleDetailFromSelection'])
             ->middleware(['auth:sanctum', 'ability:vehicles:read']);
     });
 });
-
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -393,6 +403,9 @@ Route::prefix('v1')->group(function () {
     Route::prefix('inspection')->middleware(['auth:sanctum'])->group(function () {
         // Get vehicle data for inspection
         Route::get('/form/vehicle/{id}', [InspectionController::class, 'getVehicleForInspectionForm'])
+            ->middleware(['ability:vehicles:read']);
+        // Get vehicle data for inspection
+        Route::get('/form/vehicle-detail/{id}', [InspectionController::class, 'getVehicleDetailForInspectionForm'])
             ->middleware(['ability:vehicles:read']);
         
     });

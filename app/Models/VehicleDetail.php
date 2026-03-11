@@ -64,22 +64,37 @@ class VehicleDetail extends Model
         return $this->belongsToMany(VehicleFeature::class, 'vehicle_detail_features', 'vehicle_detail_id', 'feature_id');
     }
 
-     /**
-     * Get full vehicle name
-     */
-    public function getFullNameAttribute(): string
-    {
-        return sprintf(
-            '%s %s %s %s %s',
-            $this->brand->name ?? '',
-            $this->model->name ?? '',
-            $this->type->name ?? '',
-            $this->cc ?? '',
-            $this->transmission->name ?? '',
-        );
+    /**
+ * Get formatted CC (example: 1496 -> 1.5L)
+ */
+public function getFormatCcAttribute(): ?string
+{
+    if (!$this->cc) {
+        return null;
     }
 
-    /**
+    return number_format($this->cc / 1000, 1) . 'L';
+}
+
+/**
+ * Get full vehicle name
+ */
+public function getFullNameAttribute(): string
+{
+    return collect([
+        $this->brand->name ?? null,
+        $this->model->name ?? null,
+        $this->type->name ?? null,
+        $this->format_cc, // pakai accessor
+        $this->transmission->name ?? null,
+        $this->year ?? null,
+        $this->fuel->name ?? null,
+    ])
+    ->filter()
+    ->implode(' ');
+}
+
+        /**
      * Get specification summary
      */
     public function getSpecificationSummary(): string
