@@ -1,0 +1,214 @@
+{
+  "brand": "Toyota",
+  "model": {
+    "name": "Raize",
+    "description": "Toyota Raize - Compact SUV 5-seater berbasis DNGA platform, segment B-SUV entry-level Toyota Indonesia"
+  },
+  "body_type": "SUV",
+
+  "specifications": {
+    "doors": 5,
+    "seating_capacity": 5,
+    "pickup": false,
+    "box": false
+  },
+
+  "origin": "CBU",
+
+  "generations": [
+    {
+      "name": "Generasi 1 / A200 (2021-Sekarang)",
+      "year_start": 2021,
+      "year_end": null,
+
+      "specifications": {
+        "drive": "FWD",
+        "platform": "DNGA (Daihatsu New Global Architecture)",
+        "suspension_front": "MacPherson Strut",
+        "suspension_rear": "Torsion Beam",
+        "brake_front": "Ventilated Disc",
+        "brake_rear": "Drum",
+        "length_mm": 3995,
+        "width_mm": 1695,
+        "height_mm": 1620,
+        "wheelbase_mm": 2525,
+        "ground_clearance_mm": 185,
+        "fuel_tank_l": 36,
+        "kerb_weight_kg": 995,
+        "turning_radius_m": 4.9,
+        "drag_coefficient": 0.33,
+        "boot_space_l": 369
+      },
+
+      "variants": [
+        {
+          "trim": "E",
+          "years": [2021, 2022, 2023, 2024],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock",
+            "ABS",
+            "EBD",
+            "BA",
+            "VSC",
+            "Dual Airbag",
+            "ISOFIX"
+          ],
+          "engines": [
+            {
+              "cc": 1197,
+              "engine_code": "1KR-VE",
+              "fuel_type": "Bensin",
+              "transmissions": ["MT", "CVT"],
+              "power_hp": 88,
+              "torque_nm": 113,
+              "cylinders": 3,
+              "valves": 12,
+              "fuel_system": "VVT-i EFI",
+              "engine_position": "Front Transverse",
+              "emission_standard": "Euro 4"
+            }
+          ],
+          "specifications": {
+            "wheel_size": "15-inch steel with cover",
+            "tyre_size": "185/65 R15",
+            "seats_material": "Fabric",
+            "seat_arrangement": "2-3",
+            "steering_wheel": "3-spoke urethane",
+            "instrument_cluster": "Analog + 4.2-inch MID",
+            "side_mirror": "Manual folding",
+            "air_con_type": "Manual AC",
+            "headlight_type": "Halogen",
+            "safety_rating": "ASEAN NCAP 5-star (2022)"
+          }
+        },
+        {
+          "trim": "G",
+          "years": [2021, 2022, 2023, 2024],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock",
+            "ABS",
+            "EBD",
+            "BA",
+            "VSC",
+            "HSA",
+            "Dual Airbag",
+            "ISOFIX",
+            "Alloy Wheel",
+            "Fog Lamp",
+            "Audio Steering",
+            "Keyless Entry",
+            "Start Stop Button",
+            "Camera Belakang",
+            "Sensor Parkir",
+            "DRL"
+          ],
+          "engines": [
+            {
+              "cc": 1197,
+              "engine_code": "1KR-VE",
+              "fuel_type": "Bensin",
+              "transmissions": ["MT", "CVT"],
+              "power_hp": 88,
+              "torque_nm": 113,
+              "cylinders": 3,
+              "valves": 12,
+              "fuel_system": "VVT-i EFI",
+              "engine_position": "Front Transverse",
+              "emission_standard": "Euro 4"
+            }
+          ],
+          "specifications": {
+            "wheel_size": "16-inch alloy",
+            "tyre_size": "195/60 R16",
+            "seats_material": "Fabric",
+            "seat_arrangement": "2-3",
+            "audio_speakers": 4,
+            "infotainment_size": "9-inch",
+            "camera_type": "Rearview with guidelines",
+            "key_system": "Smart entry & push start",
+            "side_mirror": "Electric folding",
+            "window_control": "All doors",
+            "air_con_type": "Manual AC",
+            "steering_wheel": "3-spoke with audio control",
+            "headlight_type": "LED Projector",
+            "daytime_running_lights": "LED",
+            "instrument_cluster": "Analog + 4.2-inch MID color",
+            "power_outlet": "USB-A front",
+            "safety_rating": "ASEAN NCAP 5-star (2022)"
+          }
+        },
+        {
+          "trim": "GS",
+          "years": [2021, 2022, 2023, 2024],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock",
+            "ABS",
+            "EBD",
+            "BA",
+            "VSC",
+            "HSA",
+            "Dual Airbag",
+            "ISOFIX",
+            "Alloy Wheel",
+            "Fog Lamp",
+            "Audio Steering",
+            "Keyless Entry",
+            "Start Stop Button",
+            "Camera Belakang",
+            "Sensor Parkir",
+            "DRL",
+            "Blind Spot",
+            "Apple CarPlay"
+          ],
+          "engines": [
+            {
+              "cc": 998,
+              "engine_code": "1KR-VET",
+              "fuel_type": "Bensin",
+              "transmissions": ["CVT"],
+              "power_hp": 98,
+              "torque_nm": 140,
+              "cylinders": 3,
+              "valves": 12,
+              "fuel_system": "VVT-i Turbo EFI",
+              "engine_position": "Front Transverse",
+              "emission_standard": "Euro 4",
+              "turbocharger": "Single scroll turbocharger",
+              "compression_ratio": "10.0:1"
+            }
+          ],
+          "specifications": {
+            "wheel_size": "17-inch alloy",
+            "tyre_size": "205/55 R17",
+            "seats_material": "Fabric (premium)",
+            "seat_arrangement": "2-3",
+            "audio_speakers": 6,
+            "infotainment_size": "9-inch",
+            "camera_type": "Rearview with dynamic guidelines",
+            "key_system": "Smart entry & push start",
+            "side_mirror": "Electric folding with indicator",
+            "window_control": "All doors with auto up/down",
+            "air_con_type": "Automatic Climate Control",
+            "steering_wheel": "3-spoke leather-wrapped",
+            "headlight_type": "Full LED Projector",
+            "daytime_running_lights": "LED",
+            "instrument_cluster": "7-inch TFT MID",
+            "power_outlet": "USB-A & USB-C front",
+            "paddle_shifter": "Available",
+            "drive_modes": "Normal / Sport / Eco",
+            "safety_rating": "ASEAN NCAP 5-star (2022)"
+          }
+        }
+      ]
+    }
+  ]
+}

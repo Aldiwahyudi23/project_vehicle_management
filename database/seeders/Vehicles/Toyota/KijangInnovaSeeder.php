@@ -6,14 +6,14 @@ use App\Services\VehicleData\VehicleDataService;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\File;
 
-class AgyaSeeder extends Seeder
+class KijangInnovaSeeder extends Seeder
 {
     public function run(): void
     {
-        $dataPath = database_path('seeders/Vehicles/Toyota/data/agya.json');
+        $dataPath = database_path('seeders/Vehicles/Toyota/data/innova.json');
 
         if (!File::exists($dataPath)) {
-            $this->command->error("File data Agya tidak ditemukan: {$dataPath}");
+            $this->command->error("File data Kijang Innova tidak ditemukan: {$dataPath}");
             return;
         }
 

@@ -1,0 +1,372 @@
+{
+  "brand": "Toyota",
+  "model": {
+    "name": "Rush",
+    "description": "Toyota Rush - Compact SUV 7-seater berbasis platform Daihatsu Terios, populer di segmen SUV entry-level Indonesia"
+  },
+  "body_type": "SUV",
+
+  "specifications": {
+    "doors": 5,
+    "seating_capacity": 7,
+    "pickup": false,
+    "box": false
+  },
+
+  "origin": "CKD",
+
+  "generations": [
+    {
+      "name": "Generasi 1 / F700 (2006-2018)",
+      "year_start": 2006,
+      "year_end": 2018,
+
+      "specifications": {
+        "drive": "RWD",
+        "platform": "Daihatsu F700 Platform",
+        "suspension_front": "MacPherson Strut",
+        "suspension_rear": "4-Link with Lateral Rod & Coil Spring",
+        "brake_front": "Ventilated Disc",
+        "brake_rear": "Drum",
+        "length_mm": 4170,
+        "width_mm": 1695,
+        "height_mm": 1710,
+        "wheelbase_mm": 2685,
+        "ground_clearance_mm": 200,
+        "fuel_tank_l": 45,
+        "kerb_weight_kg": 1285,
+        "turning_radius_m": 5.2
+      },
+
+      "variants": [
+        {
+          "trim": "S",
+          "years": [2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock",
+            "ABS",
+            "Dual Airbag"
+          ],
+          "engines": [
+            {
+              "cc": 1495,
+              "engine_code": "3SZ-VE",
+              "fuel_type": "Bensin",
+              "transmissions": ["MT"],
+              "power_hp": 109,
+              "torque_nm": 141,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "VVT-i EFI",
+              "engine_position": "Front Longitudinal"
+            }
+          ],
+          "specifications": {
+            "wheel_size": "16-inch steel",
+            "tyre_size": "215/65 R16",
+            "seats_material": "Fabric",
+            "seat_arrangement": "2-3-2",
+            "third_row_seat": "Foldable 50:50",
+            "steering_wheel": "3-spoke urethane",
+            "instrument_cluster": "Analog",
+            "side_mirror": "Manual",
+            "air_con_type": "Manual AC"
+          }
+        },
+        {
+          "trim": "G",
+          "years": [2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock",
+            "ABS",
+            "EBD",
+            "Dual Airbag",
+            "Alloy Wheel",
+            "Fog Lamp",
+            "Audio Steering",
+            "Keyless Entry"
+          ],
+          "engines": [
+            {
+              "cc": 1495,
+              "engine_code": "3SZ-VE",
+              "fuel_type": "Bensin",
+              "transmissions": ["MT", "AT"],
+              "power_hp": 109,
+              "torque_nm": 141,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "VVT-i EFI",
+              "engine_position": "Front Longitudinal"
+            }
+          ],
+          "specifications": {
+            "wheel_size": "16-inch alloy",
+            "tyre_size": "215/65 R16",
+            "seats_material": "Fabric",
+            "seat_arrangement": "2-3-2",
+            "third_row_seat": "Foldable 50:50",
+            "audio_speakers": 4,
+            "infotainment_size": "Single DIN",
+            "key_system": "Smart entry",
+            "side_mirror": "Electric",
+            "window_control": "All doors",
+            "air_con_type": "Manual AC",
+            "steering_wheel": "3-spoke with audio control",
+            "instrument_cluster": "Analog + tachometer"
+          }
+        },
+        {
+          "trim": "TRD Sportivo",
+          "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock",
+            "ABS",
+            "EBD",
+            "Dual Airbag",
+            "Alloy Wheel",
+            "Fog Lamp",
+            "Audio Steering",
+            "Keyless Entry",
+            "Start Stop Button",
+            "Camera Belakang"
+          ],
+          "engines": [
+            {
+              "cc": 1495,
+              "engine_code": "3SZ-VE",
+              "fuel_type": "Bensin",
+              "transmissions": ["MT", "AT"],
+              "power_hp": 109,
+              "torque_nm": 141,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "VVT-i EFI",
+              "engine_position": "Front Longitudinal"
+            }
+          ],
+          "specifications": {
+            "wheel_size": "17-inch alloy (TRD)",
+            "tyre_size": "215/60 R17",
+            "seats_material": "Fabric (sport)",
+            "seat_arrangement": "2-3-2",
+            "third_row_seat": "Foldable 50:50",
+            "audio_speakers": 6,
+            "infotainment_size": "Double DIN",
+            "camera_type": "Rearview with guidelines",
+            "key_system": "Smart entry & push start",
+            "side_mirror": "Electric folding",
+            "window_control": "All doors",
+            "air_con_type": "Manual AC",
+            "steering_wheel": "TRD sport 3-spoke",
+            "instrument_cluster": "Analog + tachometer + MID",
+            "body_kit": "TRD front bumper, side skirt, rear bumper",
+            "exhaust_system": "TRD dual outlet"
+          }
+        }
+      ]
+    },
+
+    {
+      "name": "Generasi 2 / F800 (2018-Sekarang)",
+      "year_start": 2018,
+      "year_end": null,
+
+      "specifications": {
+        "drive": "RWD",
+        "platform": "Daihatsu DNGA (Daihatsu New Global Architecture)",
+        "suspension_front": "MacPherson Strut",
+        "suspension_rear": "4-Link with Lateral Rod & Coil Spring",
+        "brake_front": "Ventilated Disc",
+        "brake_rear": "Drum",
+        "length_mm": 4435,
+        "width_mm": 1695,
+        "height_mm": 1705,
+        "wheelbase_mm": 2685,
+        "ground_clearance_mm": 220,
+        "fuel_tank_l": 45,
+        "kerb_weight_kg": 1310,
+        "turning_radius_m": 5.2,
+        "drag_coefficient": 0.36,
+        "boot_space_l": 183
+      },
+
+      "variants": [
+        {
+          "trim": "S",
+          "years": [2018, 2019, 2020, 2021, 2022, 2023, 2024],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock",
+            "ABS",
+            "EBD",
+            "BA",
+            "Dual Airbag",
+            "ISOFIX",
+            "VSC",
+            "HSA"
+          ],
+          "engines": [
+            {
+              "cc": 1495,
+              "engine_code": "2NR-VE",
+              "fuel_type": "Bensin",
+              "transmissions": ["MT"],
+              "power_hp": 104,
+              "torque_nm": 136,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "Dual VVT-i EFI",
+              "engine_position": "Front Longitudinal",
+              "emission_standard": "Euro 4"
+            }
+          ],
+          "specifications": {
+            "wheel_size": "17-inch steel with cover",
+            "tyre_size": "215/60 R17",
+            "seats_material": "Fabric",
+            "seat_arrangement": "2-3-2",
+            "third_row_seat": "Foldable 50:50",
+            "steering_wheel": "3-spoke urethane",
+            "instrument_cluster": "Analog + MID",
+            "side_mirror": "Manual folding",
+            "air_con_type": "Manual AC",
+            "safety_rating": "ASEAN NCAP 4-star"
+          }
+        },
+        {
+          "trim": "G",
+          "years": [2018, 2019, 2020, 2021, 2022, 2023, 2024],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock",
+            "ABS",
+            "EBD",
+            "BA",
+            "VSC",
+            "HSA",
+            "Dual Airbag",
+            "ISOFIX",
+            "Alloy Wheel",
+            "Fog Lamp",
+            "Audio Steering",
+            "Keyless Entry",
+            "Start Stop Button",
+            "Camera Belakang",
+            "Sensor Parkir"
+          ],
+          "engines": [
+            {
+              "cc": 1495,
+              "engine_code": "2NR-VE",
+              "fuel_type": "Bensin",
+              "transmissions": ["MT", "CVT"],
+              "power_hp": 104,
+              "torque_nm": 136,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "Dual VVT-i EFI",
+              "engine_position": "Front Longitudinal",
+              "emission_standard": "Euro 4"
+            }
+          ],
+          "specifications": {
+            "wheel_size": "17-inch alloy",
+            "tyre_size": "215/60 R17",
+            "seats_material": "Fabric",
+            "seat_arrangement": "2-3-2",
+            "third_row_seat": "Foldable 50:50",
+            "audio_speakers": 6,
+            "infotainment_size": "7-inch",
+            "camera_type": "Rearview with guidelines",
+            "key_system": "Smart entry & push start",
+            "side_mirror": "Electric folding",
+            "window_control": "All doors",
+            "air_con_type": "Manual AC Dual Zone",
+            "steering_wheel": "3-spoke with audio control",
+            "instrument_cluster": "Analog + tachometer + MID color",
+            "power_outlet": "12V front & rear + USB",
+            "headlight_type": "Halogen Projector with LED DRL",
+            "daytime_running_lights": "LED",
+            "safety_rating": "ASEAN NCAP 4-star"
+          }
+        },
+        {
+          "trim": "TRD Sportivo",
+          "years": [2018, 2019, 2020, 2021, 2022, 2023, 2024],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock",
+            "ABS",
+            "EBD",
+            "BA",
+            "VSC",
+            "HSA",
+            "Dual Airbag",
+            "ISOFIX",
+            "Alloy Wheel",
+            "Fog Lamp",
+            "Audio Steering",
+            "Keyless Entry",
+            "Start Stop Button",
+            "Camera Belakang",
+            "Sensor Parkir",
+            "DRL"
+          ],
+          "engines": [
+            {
+              "cc": 1495,
+              "engine_code": "2NR-VE",
+              "fuel_type": "Bensin",
+              "transmissions": ["MT", "CVT"],
+              "power_hp": 104,
+              "torque_nm": 136,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "Dual VVT-i EFI",
+              "engine_position": "Front Longitudinal",
+              "emission_standard": "Euro 4"
+            }
+          ],
+          "specifications": {
+            "wheel_size": "17-inch alloy (TRD)",
+            "tyre_size": "215/60 R17",
+            "seats_material": "Fabric (sport)",
+            "seat_arrangement": "2-3-2",
+            "third_row_seat": "Foldable 50:50",
+            "audio_speakers": 6,
+            "infotainment_size": "9-inch",
+            "camera_type": "Rearview with dynamic guidelines",
+            "key_system": "Smart entry & push start",
+            "side_mirror": "Electric folding with indicator",
+            "window_control": "All doors",
+            "air_con_type": "Manual AC Dual Zone",
+            "steering_wheel": "TRD sport 3-spoke leather",
+            "instrument_cluster": "Analog + tachometer + MID color",
+            "power_outlet": "12V all rows + USB",
+            "headlight_type": "LED Projector",
+            "daytime_running_lights": "LED",
+            "body_kit": "TRD front bumper, side skirt, rear bumper & spoiler",
+            "exhaust_system": "TRD dual outlet",
+            "safety_rating": "ASEAN NCAP 4-star"
+          }
+        }
+      ]
+    }
+  ]
+}

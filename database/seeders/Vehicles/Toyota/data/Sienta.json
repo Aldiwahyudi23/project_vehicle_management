@@ -1,0 +1,428 @@
+{
+  "brand": "Toyota",
+  "model": {
+    "name": "Sienta",
+    "description": "Toyota Sienta - Compact MPV 7-seater dengan sliding door, cocok untuk keluarga urban"
+  },
+  "body_type": "MPV",
+
+  "specifications": {
+    "doors": 5,
+    "seating_capacity": 7,
+    "pickup": false,
+    "box": false
+  },
+
+  "origin": "CBU",
+
+  "generations": [
+    {
+      "name": "Generasi 1 / NCP81 (2016-2022)",
+      "year_start": 2016,
+      "year_end": 2022,
+
+      "specifications": {
+        "drive": "FWD",
+        "platform": "Toyota MC Platform",
+        "suspension_front": "MacPherson Strut",
+        "suspension_rear": "Torsion Beam",
+        "brake_front": "Ventilated Disc",
+        "brake_rear": "Drum",
+        "length_mm": 4235,
+        "width_mm": 1695,
+        "height_mm": 1675,
+        "wheelbase_mm": 2750,
+        "ground_clearance_mm": 155,
+        "fuel_tank_l": 42,
+        "kerb_weight_kg": 1290,
+        "turning_radius_m": 5.1
+      },
+
+      "variants": [
+        {
+          "trim": "E",
+          "years": [2016, 2017, 2018, 2019, 2020, 2021, 2022],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock",
+            "Dual Airbag",
+            "ABS",
+            "EBD",
+            "BA",
+            "ISOFIX"
+          ],
+          "engines": [
+            {
+              "cc": 1496,
+              "engine_code": "1NZ-FE",
+              "fuel_type": "Bensin",
+              "transmissions": ["CVT"],
+              "power_hp": 107,
+              "torque_nm": 141,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "VVT-i EFI",
+              "engine_position": "Front Transverse"
+            }
+          ],
+          "specifications": {
+            "wheel_size": "15-inch steel with cover",
+            "tyre_size": "185/60 R15",
+            "seats_material": "Fabric",
+            "seat_arrangement": "2-3-2",
+            "third_row_seat": "Foldable tumble",
+            "steering_wheel": "3-spoke urethane",
+            "instrument_cluster": "Analog + MID",
+            "side_mirror": "Manual folding",
+            "air_con_type": "Manual AC Single Zone",
+            "power_door": "Manual sliding rear door (both sides)"
+          }
+        },
+        {
+          "trim": "V",
+          "years": [2016, 2017, 2018, 2019, 2020, 2021, 2022],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock",
+            "Dual Airbag",
+            "ABS",
+            "EBD",
+            "BA",
+            "VSC",
+            "HSA",
+            "ISOFIX",
+            "Alloy Wheel",
+            "Fog Lamp",
+            "Keyless Entry",
+            "Start Stop Button",
+            "Camera Belakang",
+            "Audio Steering",
+            "Retractable",
+            "Sensor Parkir",
+            "DRL",
+            "Power Door"
+          ],
+          "engines": [
+            {
+              "cc": 1496,
+              "engine_code": "1NZ-FE",
+              "fuel_type": "Bensin",
+              "transmissions": ["CVT"],
+              "power_hp": 107,
+              "torque_nm": 141,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "VVT-i EFI",
+              "engine_position": "Front Transverse"
+            }
+          ],
+          "specifications": {
+            "wheel_size": "15-inch alloy",
+            "tyre_size": "185/60 R15",
+            "seats_material": "Fabric",
+            "seat_arrangement": "2-3-2",
+            "third_row_seat": "Foldable tumble",
+            "audio_speakers": 4,
+            "infotainment_size": "7-inch",
+            "camera_type": "Rearview with guidelines",
+            "key_system": "Smart entry & push start",
+            "side_mirror": "Electric folding",
+            "window_control": "All doors",
+            "air_con_type": "Manual AC Dual Zone",
+            "steering_wheel": "3-spoke with audio control",
+            "headlight_type": "Halogen Projector with LED DRL",
+            "daytime_running_lights": "LED",
+            "instrument_cluster": "Analog + MID color",
+            "power_outlet": "12V front + USB",
+            "power_door": "Power sliding rear door (both sides)"
+          }
+        },
+        {
+          "trim": "Q",
+          "years": [2016, 2017, 2018, 2019, 2020, 2021, 2022],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock",
+            "Dual Airbag",
+            "ABS",
+            "EBD",
+            "BA",
+            "VSC",
+            "HSA",
+            "ISOFIX",
+            "Alloy Wheel",
+            "Fog Lamp",
+            "Keyless Entry",
+            "Start Stop Button",
+            "Leather Seat",
+            "Camera Belakang",
+            "Audio Steering",
+            "Retractable",
+            "Sensor Parkir",
+            "DRL",
+            "Blind Spot",
+            "Power Door",
+            "Cruise Control"
+          ],
+          "engines": [
+            {
+              "cc": 1496,
+              "engine_code": "1NZ-FE",
+              "fuel_type": "Bensin",
+              "transmissions": ["CVT"],
+              "power_hp": 107,
+              "torque_nm": 141,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "VVT-i EFI",
+              "engine_position": "Front Transverse"
+            }
+          ],
+          "specifications": {
+            "wheel_size": "16-inch alloy",
+            "tyre_size": "195/55 R16",
+            "seats_material": "Leather",
+            "seat_arrangement": "2-3-2",
+            "third_row_seat": "Foldable tumble",
+            "audio_speakers": 6,
+            "infotainment_size": "8-inch",
+            "camera_type": "Rearview with dynamic guidelines",
+            "key_system": "Smart entry & push start",
+            "side_mirror": "Electric folding with indicator",
+            "window_control": "All doors with auto up/down",
+            "air_con_type": "Automatic Climate Control Dual Zone",
+            "steering_wheel": "4-spoke leather-wrapped",
+            "headlight_type": "Full LED Projector",
+            "daytime_running_lights": "LED",
+            "instrument_cluster": "Analog + 4.2-inch MID color",
+            "power_outlet": "12V all rows + USB",
+            "power_door": "Power sliding rear door (both sides)",
+            "safety_rating": "ASEAN NCAP 5-star"
+          }
+        }
+      ]
+    },
+
+    {
+      "name": "Generasi 2 / MXPC10 (2022-Sekarang)",
+      "year_start": 2022,
+      "year_end": null,
+
+      "specifications": {
+        "drive": "FWD",
+        "platform": "TNGA-B (Toyota New Global Architecture)",
+        "suspension_front": "MacPherson Strut",
+        "suspension_rear": "Torsion Beam",
+        "brake_front": "Ventilated Disc",
+        "brake_rear": "Drum",
+        "length_mm": 4260,
+        "width_mm": 1695,
+        "height_mm": 1695,
+        "wheelbase_mm": 2800,
+        "ground_clearance_mm": 155,
+        "fuel_tank_l": 40,
+        "kerb_weight_kg": 1280,
+        "turning_radius_m": 5.1,
+        "drag_coefficient": 0.28,
+        "boot_space_l": 123
+      },
+
+      "variants": [
+        {
+          "trim": "E",
+          "years": [2022, 2023, 2024],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock",
+            "Dual Airbag",
+            "ABS",
+            "EBD",
+            "BA",
+            "VSC",
+            "HSA",
+            "ISOFIX"
+          ],
+          "engines": [
+            {
+              "cc": 1490,
+              "engine_code": "M15A-FKS",
+              "fuel_type": "Bensin",
+              "transmissions": ["CVT"],
+              "power_hp": 120,
+              "torque_nm": 145,
+              "cylinders": 3,
+              "valves": 12,
+              "fuel_system": "D-4ST Dual VVT-iE",
+              "engine_position": "Front Transverse",
+              "emission_standard": "Euro 4",
+              "compression_ratio": "13.0:1"
+            }
+          ],
+          "specifications": {
+            "wheel_size": "15-inch steel with cover",
+            "tyre_size": "185/65 R15",
+            "seats_material": "Fabric",
+            "seat_arrangement": "2-3-2",
+            "third_row_seat": "Foldable tumble",
+            "steering_wheel": "3-spoke urethane",
+            "instrument_cluster": "7-inch TFT MID",
+            "side_mirror": "Manual folding",
+            "air_con_type": "Manual AC Single Zone",
+            "power_door": "Manual sliding rear door (both sides)",
+            "safety_rating": "ASEAN NCAP 5-star (2023)"
+          }
+        },
+        {
+          "trim": "G",
+          "years": [2022, 2023, 2024],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock",
+            "Dual Airbag",
+            "ABS",
+            "EBD",
+            "BA",
+            "VSC",
+            "HSA",
+            "ISOFIX",
+            "Alloy Wheel",
+            "Fog Lamp",
+            "Keyless Entry",
+            "Start Stop Button",
+            "Camera Belakang",
+            "Audio Steering",
+            "Retractable",
+            "Sensor Parkir",
+            "DRL",
+            "Power Door",
+            "Apple CarPlay"
+          ],
+          "engines": [
+            {
+              "cc": 1490,
+              "engine_code": "M15A-FKS",
+              "fuel_type": "Bensin",
+              "transmissions": ["CVT"],
+              "power_hp": 120,
+              "torque_nm": 145,
+              "cylinders": 3,
+              "valves": 12,
+              "fuel_system": "D-4ST Dual VVT-iE",
+              "engine_position": "Front Transverse",
+              "emission_standard": "Euro 4",
+              "compression_ratio": "13.0:1"
+            }
+          ],
+          "specifications": {
+            "wheel_size": "16-inch alloy",
+            "tyre_size": "185/60 R16",
+            "seats_material": "Fabric",
+            "seat_arrangement": "2-3-2",
+            "third_row_seat": "Foldable tumble",
+            "audio_speakers": 4,
+            "infotainment_size": "9-inch",
+            "camera_type": "Rearview with guidelines",
+            "key_system": "Smart entry & push start",
+            "side_mirror": "Electric folding",
+            "window_control": "All doors",
+            "air_con_type": "Manual AC Dual Zone",
+            "steering_wheel": "3-spoke with audio control",
+            "headlight_type": "LED Projector",
+            "daytime_running_lights": "LED",
+            "instrument_cluster": "7-inch TFT MID",
+            "power_outlet": "USB-A front & rear",
+            "power_door": "Power sliding rear door (both sides)",
+            "safety_rating": "ASEAN NCAP 5-star (2023)"
+          }
+        },
+        {
+          "trim": "V",
+          "years": [2022, 2023, 2024],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock",
+            "Dual Airbag",
+            "ABS",
+            "EBD",
+            "BA",
+            "VSC",
+            "HSA",
+            "ISOFIX",
+            "Alloy Wheel",
+            "Fog Lamp",
+            "Keyless Entry",
+            "Start Stop Button",
+            "Leather Seat",
+            "Camera Belakang",
+            "Audio Steering",
+            "Retractable",
+            "Sensor Parkir",
+            "DRL",
+            "Blind Spot",
+            "Power Door",
+            "Cruise Control",
+            "Wireless Charge",
+            "Apple CarPlay"
+          ],
+          "engines": [
+            {
+              "cc": 1490,
+              "engine_code": "M15A-FXS (Hybrid)",
+              "fuel_type": "Hybrid",
+              "transmissions": ["e-CVT"],
+              "power_hp": 116,
+              "torque_nm": 141,
+              "cylinders": 3,
+              "valves": 12,
+              "fuel_system": "Atkinson Cycle D-4ST + Electric Motor",
+              "engine_position": "Front Transverse",
+              "emission_standard": "Euro 4",
+              "compression_ratio": "14.0:1",
+              "electric_motor_power_hp": 80,
+              "battery_type": "Nickel-Metal Hydride (NiMH)",
+              "fuel_efficiency_kmpl": "22.0 (WLTC cycle)"
+            }
+          ],
+          "specifications": {
+            "wheel_size": "16-inch alloy (premium)",
+            "tyre_size": "195/55 R16",
+            "seats_material": "Leather",
+            "seat_arrangement": "2-3-2",
+            "third_row_seat": "Foldable tumble",
+            "audio_speakers": 6,
+            "infotainment_size": "9-inch",
+            "camera_type": "Rearview with dynamic guidelines",
+            "key_system": "Smart entry & push start",
+            "side_mirror": "Electric folding with indicator & puddle lamp",
+            "window_control": "All doors with auto up/down",
+            "air_con_type": "Automatic Climate Control Dual Zone",
+            "steering_wheel": "4-spoke leather-wrapped",
+            "headlight_type": "Full LED",
+            "daytime_running_lights": "LED",
+            "instrument_cluster": "7-inch TFT MID + Hybrid display",
+            "power_outlet": "USB-A & USB-C all rows",
+            "power_door": "Power sliding rear door (both sides) with foot sensor",
+            "wireless_charging": "Qi wireless charging pad",
+            "drive_modes": "Eco / Normal",
+            "ev_mode": "EV Mode available",
+            "Toyota Safety Sense": "PCS, LDA, AHB",
+            "safety_rating": "ASEAN NCAP 5-star (2023)",
+            "foot_sensor": "Auto power sliding door"
+          }
+        }
+      ]
+    }
+  ]
+}

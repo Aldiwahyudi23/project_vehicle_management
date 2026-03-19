@@ -1,0 +1,585 @@
+{
+  "brand": "Toyota",
+  "model": {
+    "name": "Vios",
+    "description": "Toyota Vios - Sedan kompak segmen B, penerus Soluna, populer sebagai kendaraan taksi dan keluarga di Indonesia"
+  },
+  "body_type": "Sedan",
+
+  "specifications": {
+    "doors": 4,
+    "seating_capacity": 5,
+    "pickup": false,
+    "box": false
+  },
+
+  "origin": "CKD",
+
+  "generations": [
+    {
+      "name": "Generasi 1 / XP40 (2003-2007)",
+      "year_start": 2003,
+      "year_end": 2007,
+
+      "specifications": {
+        "drive": "FWD",
+        "platform": "Toyota MC Platform",
+        "suspension_front": "MacPherson Strut",
+        "suspension_rear": "Torsion Beam",
+        "brake_front": "Ventilated Disc",
+        "brake_rear": "Drum",
+        "length_mm": 4270,
+        "width_mm": 1680,
+        "height_mm": 1470,
+        "wheelbase_mm": 2550,
+        "ground_clearance_mm": 140,
+        "fuel_tank_l": 42,
+        "kerb_weight_kg": 1045,
+        "turning_radius_m": 4.9
+      },
+
+      "variants": [
+        {
+          "trim": "E",
+          "years": [2003, 2004, 2005, 2006, 2007],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock"
+          ],
+          "engines": [
+            {
+              "cc": 1298,
+              "engine_code": "2NZ-FE",
+              "fuel_type": "Bensin",
+              "transmissions": ["MT"],
+              "power_hp": 87,
+              "torque_nm": 121,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "VVT-i EFI",
+              "engine_position": "Front Transverse"
+            }
+          ],
+          "specifications": {
+            "wheel_size": "14-inch steel",
+            "tyre_size": "175/65 R14",
+            "seats_material": "Fabric",
+            "seat_arrangement": "2-3",
+            "steering_wheel": "3-spoke urethane",
+            "instrument_cluster": "Analog",
+            "side_mirror": "Manual",
+            "air_con_type": "Manual AC"
+          }
+        },
+        {
+          "trim": "G",
+          "years": [2003, 2004, 2005, 2006, 2007],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock",
+            "ABS",
+            "Dual Airbag",
+            "Alloy Wheel"
+          ],
+          "engines": [
+            {
+              "cc": 1497,
+              "engine_code": "1NZ-FE",
+              "fuel_type": "Bensin",
+              "transmissions": ["MT", "AT"],
+              "power_hp": 109,
+              "torque_nm": 141,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "VVT-i EFI",
+              "engine_position": "Front Transverse"
+            }
+          ],
+          "specifications": {
+            "wheel_size": "15-inch alloy",
+            "tyre_size": "185/60 R15",
+            "seats_material": "Fabric",
+            "seat_arrangement": "2-3",
+            "audio_speakers": 4,
+            "infotainment_size": "Single DIN",
+            "side_mirror": "Electric",
+            "window_control": "All doors",
+            "air_con_type": "Manual AC",
+            "steering_wheel": "3-spoke urethane",
+            "instrument_cluster": "Analog + tachometer"
+          }
+        }
+      ]
+    },
+
+    {
+      "name": "Generasi 2 / XP90 (2007-2013)",
+      "year_start": 2007,
+      "year_end": 2013,
+
+      "specifications": {
+        "drive": "FWD",
+        "platform": "Toyota MC Platform (Revised)",
+        "suspension_front": "MacPherson Strut",
+        "suspension_rear": "Torsion Beam",
+        "brake_front": "Ventilated Disc",
+        "brake_rear": "Drum",
+        "length_mm": 4370,
+        "width_mm": 1700,
+        "height_mm": 1475,
+        "wheelbase_mm": 2550,
+        "ground_clearance_mm": 140,
+        "fuel_tank_l": 42,
+        "kerb_weight_kg": 1070,
+        "turning_radius_m": 5.0
+      },
+
+      "variants": [
+        {
+          "trim": "E",
+          "years": [2007, 2008, 2009, 2010, 2011, 2012, 2013],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock",
+            "Dual Airbag",
+            "ABS"
+          ],
+          "engines": [
+            {
+              "cc": 1497,
+              "engine_code": "1NZ-FE",
+              "fuel_type": "Bensin",
+              "transmissions": ["MT"],
+              "power_hp": 109,
+              "torque_nm": 141,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "VVT-i EFI",
+              "engine_position": "Front Transverse"
+            }
+          ],
+          "specifications": {
+            "wheel_size": "14-inch steel",
+            "tyre_size": "175/65 R14",
+            "seats_material": "Fabric",
+            "seat_arrangement": "2-3",
+            "steering_wheel": "3-spoke urethane",
+            "instrument_cluster": "Analog",
+            "side_mirror": "Manual",
+            "air_con_type": "Manual AC"
+          }
+        },
+        {
+          "trim": "G",
+          "years": [2007, 2008, 2009, 2010, 2011, 2012, 2013],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock",
+            "Dual Airbag",
+            "ABS",
+            "EBD",
+            "Alloy Wheel",
+            "Fog Lamp",
+            "Audio Steering",
+            "Keyless Entry"
+          ],
+          "engines": [
+            {
+              "cc": 1497,
+              "engine_code": "1NZ-FE",
+              "fuel_type": "Bensin",
+              "transmissions": ["MT", "AT"],
+              "power_hp": 109,
+              "torque_nm": 141,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "VVT-i EFI",
+              "engine_position": "Front Transverse"
+            }
+          ],
+          "specifications": {
+            "wheel_size": "15-inch alloy",
+            "tyre_size": "185/60 R15",
+            "seats_material": "Fabric",
+            "seat_arrangement": "2-3",
+            "audio_speakers": 4,
+            "infotainment_size": "Single DIN",
+            "key_system": "Smart entry",
+            "side_mirror": "Electric",
+            "window_control": "All doors",
+            "air_con_type": "Manual AC",
+            "steering_wheel": "3-spoke with audio control",
+            "instrument_cluster": "Analog + tachometer + MID"
+          }
+        },
+        {
+          "trim": "S",
+          "years": [2010, 2011, 2012, 2013],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock",
+            "Dual Airbag",
+            "ABS",
+            "EBD",
+            "BA",
+            "Alloy Wheel",
+            "Fog Lamp",
+            "Audio Steering",
+            "Keyless Entry",
+            "Start Stop Button",
+            "Camera Belakang",
+            "Leather Seat"
+          ],
+          "engines": [
+            {
+              "cc": 1497,
+              "engine_code": "1NZ-FE",
+              "fuel_type": "Bensin",
+              "transmissions": ["AT"],
+              "power_hp": 109,
+              "torque_nm": 141,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "VVT-i EFI",
+              "engine_position": "Front Transverse"
+            }
+          ],
+          "specifications": {
+            "wheel_size": "16-inch alloy",
+            "tyre_size": "195/55 R16",
+            "seats_material": "Leather",
+            "seat_arrangement": "2-3",
+            "audio_speakers": 6,
+            "infotainment_size": "Double DIN",
+            "camera_type": "Rearview with guidelines",
+            "key_system": "Smart entry & push start",
+            "side_mirror": "Electric folding",
+            "window_control": "All doors with auto up/down",
+            "air_con_type": "Manual AC",
+            "steering_wheel": "4-spoke leather-wrapped",
+            "headlight_type": "Projector Halogen",
+            "instrument_cluster": "Analog + tachometer + MID color"
+          }
+        }
+      ]
+    },
+
+    {
+      "name": "Generasi 3 / XP150 (2013-2021)",
+      "year_start": 2013,
+      "year_end": 2021,
+
+      "specifications": {
+        "drive": "FWD",
+        "platform": "Toyota MC Platform (XP150)",
+        "suspension_front": "MacPherson Strut",
+        "suspension_rear": "Torsion Beam",
+        "brake_front": "Ventilated Disc",
+        "brake_rear": "Drum",
+        "length_mm": 4410,
+        "width_mm": 1700,
+        "height_mm": 1475,
+        "wheelbase_mm": 2550,
+        "ground_clearance_mm": 140,
+        "fuel_tank_l": 42,
+        "kerb_weight_kg": 1075,
+        "turning_radius_m": 5.0
+      },
+
+      "variants": [
+        {
+          "trim": "E",
+          "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock",
+            "Dual Airbag",
+            "ABS",
+            "EBD",
+            "ISOFIX"
+          ],
+          "engines": [
+            {
+              "cc": 1497,
+              "engine_code": "1NZ-FE",
+              "fuel_type": "Bensin",
+              "transmissions": ["MT"],
+              "power_hp": 109,
+              "torque_nm": 141,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "VVT-i EFI",
+              "engine_position": "Front Transverse",
+              "emission_standard": "Euro 4"
+            }
+          ],
+          "specifications": {
+            "wheel_size": "14-inch steel",
+            "tyre_size": "185/70 R14",
+            "seats_material": "Fabric",
+            "seat_arrangement": "2-3",
+            "steering_wheel": "3-spoke urethane",
+            "instrument_cluster": "Analog + MID",
+            "side_mirror": "Manual",
+            "air_con_type": "Manual AC"
+          }
+        },
+        {
+          "trim": "G",
+          "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock",
+            "Dual Airbag",
+            "ABS",
+            "EBD",
+            "BA",
+            "ISOFIX",
+            "Alloy Wheel",
+            "Fog Lamp",
+            "Audio Steering",
+            "Keyless Entry",
+            "Start Stop Button",
+            "Camera Belakang"
+          ],
+          "engines": [
+            {
+              "cc": 1497,
+              "engine_code": "1NZ-FE",
+              "fuel_type": "Bensin",
+              "transmissions": ["MT", "AT"],
+              "power_hp": 109,
+              "torque_nm": 141,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "VVT-i EFI",
+              "engine_position": "Front Transverse",
+              "emission_standard": "Euro 4"
+            }
+          ],
+          "specifications": {
+            "wheel_size": "15-inch alloy",
+            "tyre_size": "185/60 R15",
+            "seats_material": "Fabric",
+            "seat_arrangement": "2-3",
+            "audio_speakers": 4,
+            "infotainment_size": "6.1-inch",
+            "camera_type": "Rearview with guidelines",
+            "key_system": "Smart entry & push start",
+            "side_mirror": "Electric folding",
+            "window_control": "All doors",
+            "air_con_type": "Manual AC",
+            "steering_wheel": "3-spoke with audio control",
+            "headlight_type": "Halogen with LED DRL",
+            "daytime_running_lights": "LED",
+            "instrument_cluster": "Analog + tachometer + MID color"
+          }
+        },
+        {
+          "trim": "S",
+          "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock",
+            "Dual Airbag",
+            "ABS",
+            "EBD",
+            "BA",
+            "VSC",
+            "ISOFIX",
+            "Alloy Wheel",
+            "Fog Lamp",
+            "Audio Steering",
+            "Keyless Entry",
+            "Start Stop Button",
+            "Camera Belakang",
+            "Leather Seat",
+            "Sensor Parkir",
+            "Retractable",
+            "DRL"
+          ],
+          "engines": [
+            {
+              "cc": 1497,
+              "engine_code": "1NZ-FE",
+              "fuel_type": "Bensin",
+              "transmissions": ["CVT"],
+              "power_hp": 109,
+              "torque_nm": 141,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "VVT-i EFI",
+              "engine_position": "Front Transverse",
+              "emission_standard": "Euro 4"
+            }
+          ],
+          "specifications": {
+            "wheel_size": "16-inch alloy",
+            "tyre_size": "195/55 R16",
+            "seats_material": "Leather",
+            "seat_arrangement": "2-3",
+            "audio_speakers": 6,
+            "infotainment_size": "7-inch",
+            "camera_type": "Rearview with dynamic guidelines",
+            "key_system": "Smart entry & push start",
+            "side_mirror": "Electric folding with indicator",
+            "window_control": "All doors with auto up/down",
+            "air_con_type": "Automatic Climate Control",
+            "steering_wheel": "4-spoke leather-wrapped",
+            "headlight_type": "Projector Halogen with LED DRL",
+            "daytime_running_lights": "LED",
+            "instrument_cluster": "Analog + tachometer + 4.2-inch MID color",
+            "power_outlet": "12V front + USB"
+          }
+        }
+      ]
+    },
+
+    {
+      "name": "Generasi 4 / XP210 (2021-Sekarang)",
+      "year_start": 2021,
+      "year_end": null,
+
+      "specifications": {
+        "drive": "FWD",
+        "platform": "TNGA-B (Toyota New Global Architecture)",
+        "suspension_front": "MacPherson Strut",
+        "suspension_rear": "Torsion Beam",
+        "brake_front": "Ventilated Disc",
+        "brake_rear": "Drum",
+        "length_mm": 4425,
+        "width_mm": 1730,
+        "height_mm": 1480,
+        "wheelbase_mm": 2620,
+        "ground_clearance_mm": 140,
+        "fuel_tank_l": 42,
+        "kerb_weight_kg": 1070,
+        "turning_radius_m": 5.0,
+        "drag_coefficient": 0.28,
+        "boot_space_l": 480
+      },
+
+      "variants": [
+        {
+          "trim": "E",
+          "years": [2021, 2022, 2023, 2024],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock",
+            "Dual Airbag",
+            "ABS",
+            "EBD",
+            "BA",
+            "VSC",
+            "ISOFIX"
+          ],
+          "engines": [
+            {
+              "cc": 1496,
+              "engine_code": "2NR-VE",
+              "fuel_type": "Bensin",
+              "transmissions": ["MT", "CVT"],
+              "power_hp": 107,
+              "torque_nm": 140,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "Dual VVT-i EFI",
+              "engine_position": "Front Transverse",
+              "emission_standard": "Euro 4"
+            }
+          ],
+          "specifications": {
+            "wheel_size": "15-inch steel with cover",
+            "tyre_size": "185/65 R15",
+            "seats_material": "Fabric",
+            "seat_arrangement": "2-3",
+            "steering_wheel": "3-spoke urethane",
+            "instrument_cluster": "Analog + 4.2-inch MID",
+            "side_mirror": "Manual folding",
+            "air_con_type": "Manual AC",
+            "headlight_type": "Halogen",
+            "safety_rating": "ASEAN NCAP 5-star (2022)"
+          }
+        },
+        {
+          "trim": "G",
+          "years": [2021, 2022, 2023, 2024],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock",
+            "Dual Airbag",
+            "ABS",
+            "EBD",
+            "BA",
+            "VSC",
+            "HSA",
+            "ISOFIX",
+            "Alloy Wheel",
+            "Fog Lamp",
+            "Audio Steering",
+            "Keyless Entry",
+            "Start Stop Button",
+            "Camera Belakang",
+            "Sensor Parkir",
+            "DRL",
+            "Apple CarPlay"
+          ],
+          "engines": [
+            {
+              "cc": 1496,
+              "engine_code": "2NR-VE",
+              "fuel_type": "Bensin",
+              "transmissions": ["CVT"],
+              "power_hp": 107,
+              "torque_nm": 140,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "Dual VVT-i EFI",
+              "engine_position": "Front Transverse",
+              "emission_standard": "Euro 4"
+            }
+          ],
+          "specifications": {
+            "wheel_size": "16-inch alloy",
+            "tyre_size": "195/55 R16",
+            "seats_material": "Fabric",
+            "seat_arrangement": "2-3",
+            "audio_speakers": 6,
+            "infotainment_size": "9-inch",
+            "camera_type": "Rearview with dynamic guidelines",
+            "key_system": "Smart entry & push start",
+            "side_mirror": "Electric folding with indicator",
+            "window_control": "All doors with auto up/down",
+            "air_con_type": "Automatic Climate Control",
+            "steering_wheel": "3-spoke leather-wrapped with audio control",
+            "headlight_type": "LED Projector",
+            "daytime_running_lights": "LED",
+            "instrument_cluster": "Analog + 7-inch TFT MID",
+            "power_outlet": "USB-A & USB-C front + rear",
+            "safety_rating": "ASEAN NCAP 5-star (2022)"
+          }
+        }
+      ]
+    }
+  ]
+}

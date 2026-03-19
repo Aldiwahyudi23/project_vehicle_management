@@ -1,0 +1,1000 @@
+{
+  "brand": "Toyota",
+  "model": {
+    "name": "Kijang Innova",
+    "description": "Toyota Kijang Innova - MPV 7-seater berbasis IMV Platform, penerus Toyota Kijang generasi klasik"
+  },
+  "body_type": "MPV",
+
+  "specifications": {
+    "doors": 5,
+    "seating_capacity": 7,
+    "pickup": false,
+    "box": false
+  },
+
+  "origin": "CKD",
+
+  "generations": [
+    {
+      "name": "Generasi 1 / AN40 (2004-2011)",
+      "year_start": 2004,
+      "year_end": 2011,
+
+      "specifications": {
+        "drive": "RWD",
+        "platform": "Toyota IMV Platform (F700)",
+        "suspension_front": "Double Wishbone with Torsion Bar",
+        "suspension_rear": "4-Link with Lateral Rod & Coil Spring",
+        "brake_front": "Ventilated Disc",
+        "brake_rear": "Drum",
+        "length_mm": 4555,
+        "width_mm": 1760,
+        "height_mm": 1795,
+        "wheelbase_mm": 2750,
+        "ground_clearance_mm": 197,
+        "fuel_tank_l": 55,
+        "kerb_weight_kg": 1645,
+        "turning_radius_m": 5.4
+      },
+
+      "variants": [
+        {
+          "trim": "E",
+          "years": [2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock"
+          ],
+          "engines": [
+            {
+              "cc": 1998,
+              "engine_code": "1TR-FE",
+              "fuel_type": "Bensin",
+              "transmissions": ["MT"],
+              "power_hp": 136,
+              "torque_nm": 183,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "VVT-i EFI",
+              "engine_position": "Front Longitudinal"
+            }
+          ],
+          "specifications": {
+            "wheel_size": "15-inch steel",
+            "tyre_size": "205/65 R15",
+            "seats_material": "Fabric",
+            "seat_arrangement": "2-3-2",
+            "third_row_seat": "Foldable 50:50",
+            "steering_wheel": "3-spoke urethane",
+            "instrument_cluster": "Analog",
+            "exhaust_system": "Single",
+            "side_mirror": "Manual"
+          }
+        },
+        {
+          "trim": "G",
+          "years": [2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock",
+            "Dual Airbag",
+            "ABS",
+            "Alloy Wheel",
+            "Fog Lamp",
+            "Audio Steering"
+          ],
+          "engines": [
+            {
+              "cc": 1998,
+              "engine_code": "1TR-FE",
+              "fuel_type": "Bensin",
+              "transmissions": ["MT", "AT"],
+              "power_hp": 136,
+              "torque_nm": 183,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "VVT-i EFI",
+              "engine_position": "Front Longitudinal"
+            },
+            {
+              "cc": 2494,
+              "engine_code": "2KD-FTV",
+              "fuel_type": "Solar",
+              "transmissions": ["MT"],
+              "power_hp": 102,
+              "torque_nm": 260,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "D-4D Common Rail",
+              "engine_position": "Front Longitudinal"
+            }
+          ],
+          "specifications": {
+            "wheel_size": "15-inch alloy",
+            "tyre_size": "205/65 R15",
+            "seats_material": "Fabric",
+            "seat_arrangement": "2-3-2",
+            "third_row_seat": "Foldable 50:50",
+            "audio_speakers": 4,
+            "infotainment_size": "Single DIN",
+            "side_mirror": "Electric",
+            "window_control": "All doors",
+            "air_con_type": "Manual AC (Dual Zone)",
+            "steering_wheel": "3-spoke urethane with audio control"
+          }
+        },
+        {
+          "trim": "V",
+          "years": [2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock",
+            "Dual Airbag",
+            "ABS",
+            "EBD",
+            "Alloy Wheel",
+            "Fog Lamp",
+            "Keyless Entry",
+            "Leather Seat",
+            "Camera Belakang",
+            "Audio Steering",
+            "Retractable"
+          ],
+          "engines": [
+            {
+              "cc": 1998,
+              "engine_code": "1TR-FE",
+              "fuel_type": "Bensin",
+              "transmissions": ["MT", "AT"],
+              "power_hp": 136,
+              "torque_nm": 183,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "VVT-i EFI",
+              "engine_position": "Front Longitudinal"
+            },
+            {
+              "cc": 2494,
+              "engine_code": "2KD-FTV",
+              "fuel_type": "Solar",
+              "transmissions": ["MT", "AT"],
+              "power_hp": 102,
+              "torque_nm": 260,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "D-4D Common Rail",
+              "engine_position": "Front Longitudinal"
+            }
+          ],
+          "specifications": {
+            "wheel_size": "16-inch alloy",
+            "tyre_size": "215/60 R16",
+            "seats_material": "Leather",
+            "seat_arrangement": "2-3-2",
+            "third_row_seat": "Foldable 50:50",
+            "audio_speakers": 6,
+            "infotainment_size": "Double DIN DVD",
+            "camera_type": "Rearview camera",
+            "key_system": "Smart entry",
+            "side_mirror": "Electric folding with indicator",
+            "window_control": "All doors with auto up/down driver",
+            "air_con_type": "Automatic AC (Dual Zone)",
+            "steering_wheel": "4-spoke leather-wrapped",
+            "headlight_type": "Projector Halogen",
+            "instrument_cluster": "Analog + tachometer"
+          }
+        }
+      ]
+    },
+
+    {
+      "name": "Generasi 2 / AN80 (2011-2016)",
+      "year_start": 2011,
+      "year_end": 2016,
+
+      "specifications": {
+        "drive": "RWD",
+        "platform": "Toyota IMV Platform (F800 Improved)",
+        "suspension_front": "Double Wishbone with Torsion Bar",
+        "suspension_rear": "4-Link with Lateral Rod & Coil Spring",
+        "brake_front": "Ventilated Disc",
+        "brake_rear": "Drum",
+        "length_mm": 4585,
+        "width_mm": 1775,
+        "height_mm": 1795,
+        "wheelbase_mm": 2750,
+        "ground_clearance_mm": 197,
+        "fuel_tank_l": 55,
+        "kerb_weight_kg": 1680,
+        "turning_radius_m": 5.4,
+        "drag_coefficient": 0.35
+      },
+
+      "variants": [
+        {
+          "trim": "E",
+          "years": [2011, 2012, 2013, 2014, 2015, 2016],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock",
+            "Dual Airbag",
+            "ABS",
+            "EBD"
+          ],
+          "engines": [
+            {
+              "cc": 1998,
+              "engine_code": "1TR-FE",
+              "fuel_type": "Bensin",
+              "transmissions": ["MT"],
+              "power_hp": 136,
+              "torque_nm": 183,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "VVT-i EFI",
+              "engine_position": "Front Longitudinal"
+            },
+            {
+              "cc": 2494,
+              "engine_code": "2KD-FTV",
+              "fuel_type": "Solar",
+              "transmissions": ["MT"],
+              "power_hp": 102,
+              "torque_nm": 260,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "D-4D Common Rail",
+              "engine_position": "Front Longitudinal"
+            }
+          ],
+          "specifications": {
+            "wheel_size": "15-inch steel",
+            "tyre_size": "205/65 R15",
+            "seats_material": "Fabric",
+            "seat_arrangement": "2-3-2",
+            "third_row_seat": "Foldable 50:50",
+            "steering_wheel": "3-spoke urethane",
+            "instrument_cluster": "Analog",
+            "side_mirror": "Manual"
+          }
+        },
+        {
+          "trim": "G",
+          "years": [2011, 2012, 2013, 2014, 2015, 2016],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock",
+            "Dual Airbag",
+            "ABS",
+            "EBD",
+            "BA",
+            "Alloy Wheel",
+            "Fog Lamp",
+            "Audio Steering"
+          ],
+          "engines": [
+            {
+              "cc": 1998,
+              "engine_code": "1TR-FE",
+              "fuel_type": "Bensin",
+              "transmissions": ["MT", "AT"],
+              "power_hp": 136,
+              "torque_nm": 183,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "VVT-i EFI",
+              "engine_position": "Front Longitudinal"
+            },
+            {
+              "cc": 2494,
+              "engine_code": "2KD-FTV",
+              "fuel_type": "Solar",
+              "transmissions": ["MT", "AT"],
+              "power_hp": 102,
+              "torque_nm": 260,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "D-4D Common Rail",
+              "engine_position": "Front Longitudinal"
+            }
+          ],
+          "specifications": {
+            "wheel_size": "16-inch alloy",
+            "tyre_size": "215/60 R16",
+            "seats_material": "Fabric",
+            "seat_arrangement": "2-3-2",
+            "third_row_seat": "Foldable 50:50",
+            "audio_speakers": 6,
+            "infotainment_size": "6.1-inch",
+            "side_mirror": "Electric",
+            "window_control": "All doors",
+            "air_con_type": "Manual AC Dual Zone",
+            "steering_wheel": "3-spoke with audio control"
+          }
+        },
+        {
+          "trim": "V",
+          "years": [2011, 2012, 2013, 2014, 2015, 2016],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock",
+            "Dual Airbag",
+            "ABS",
+            "EBD",
+            "BA",
+            "VSC",
+            "Alloy Wheel",
+            "Fog Lamp",
+            "Keyless Entry",
+            "Start Stop Button",
+            "Leather Seat",
+            "Camera Belakang",
+            "Audio Steering",
+            "Retractable",
+            "Sensor Parkir"
+          ],
+          "engines": [
+            {
+              "cc": 1998,
+              "engine_code": "1TR-FE",
+              "fuel_type": "Bensin",
+              "transmissions": ["MT", "AT"],
+              "power_hp": 136,
+              "torque_nm": 183,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "VVT-i EFI",
+              "engine_position": "Front Longitudinal"
+            },
+            {
+              "cc": 2494,
+              "engine_code": "2KD-FTV",
+              "fuel_type": "Solar",
+              "transmissions": ["MT", "AT"],
+              "power_hp": 102,
+              "torque_nm": 260,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "D-4D Common Rail",
+              "engine_position": "Front Longitudinal"
+            }
+          ],
+          "specifications": {
+            "wheel_size": "17-inch alloy",
+            "tyre_size": "215/55 R17",
+            "seats_material": "Leather",
+            "seat_arrangement": "2-3-2",
+            "third_row_seat": "Foldable 50:50",
+            "audio_speakers": 8,
+            "infotainment_size": "7-inch DVD",
+            "camera_type": "Rearview with guidelines",
+            "key_system": "Smart entry & push start",
+            "side_mirror": "Electric folding with indicator & puddle lamp",
+            "window_control": "All doors with auto up/down",
+            "air_con_type": "Automatic Climate Control Dual Zone",
+            "steering_wheel": "4-spoke leather-wrapped",
+            "headlight_type": "Projector Halogen with auto levelling",
+            "instrument_cluster": "Analog + tachometer + MID",
+            "roof_rails": "Standard",
+            "exhaust_system": "Dual tip"
+          }
+        }
+      ]
+    },
+
+    {
+      "name": "Generasi 3 / AN140 (2016-2023)",
+      "year_start": 2016,
+      "year_end": 2023,
+
+      "specifications": {
+        "drive": "RWD",
+        "platform": "Toyota IMV Platform (F800 Revised)",
+        "suspension_front": "Double Wishbone with Torsion Bar",
+        "suspension_rear": "4-Link with Lateral Rod & Coil Spring",
+        "brake_front": "Ventilated Disc",
+        "brake_rear": "Drum",
+        "length_mm": 4735,
+        "width_mm": 1830,
+        "height_mm": 1795,
+        "wheelbase_mm": 2750,
+        "ground_clearance_mm": 183,
+        "fuel_tank_l": 55,
+        "kerb_weight_kg": 1760,
+        "turning_radius_m": 5.4,
+        "drag_coefficient": 0.34,
+        "boot_space_l": 164
+      },
+
+      "variants": [
+        {
+          "trim": "E",
+          "years": [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock",
+            "Dual Airbag",
+            "ABS",
+            "EBD",
+            "BA",
+            "ISOFIX"
+          ],
+          "engines": [
+            {
+              "cc": 1998,
+              "engine_code": "1TR-FE",
+              "fuel_type": "Bensin",
+              "transmissions": ["MT"],
+              "power_hp": 139,
+              "torque_nm": 183,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "VVT-i EFI",
+              "engine_position": "Front Longitudinal",
+              "emission_standard": "Euro 4"
+            },
+            {
+              "cc": 2494,
+              "engine_code": "2KD-FTV",
+              "fuel_type": "Solar",
+              "transmissions": ["MT"],
+              "power_hp": 149,
+              "torque_nm": 343,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "D-4D Common Rail",
+              "engine_position": "Front Longitudinal",
+              "emission_standard": "Euro 4"
+            }
+          ],
+          "specifications": {
+            "wheel_size": "15-inch steel with cover",
+            "tyre_size": "205/65 R15",
+            "seats_material": "Fabric",
+            "seat_arrangement": "2-3-2",
+            "third_row_seat": "Foldable 50:50",
+            "steering_wheel": "3-spoke urethane",
+            "instrument_cluster": "Analog + MID",
+            "side_mirror": "Manual",
+            "air_con_type": "Manual AC Dual Zone",
+            "safety_rating": "ASEAN NCAP 5-star (2016)"
+          }
+        },
+        {
+          "trim": "G",
+          "years": [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock",
+            "Dual Airbag",
+            "ABS",
+            "EBD",
+            "BA",
+            "VSC",
+            "HSA",
+            "ISOFIX",
+            "Alloy Wheel",
+            "Fog Lamp",
+            "Audio Steering",
+            "Camera Belakang"
+          ],
+          "engines": [
+            {
+              "cc": 1998,
+              "engine_code": "1TR-FE",
+              "fuel_type": "Bensin",
+              "transmissions": ["MT", "AT"],
+              "power_hp": 139,
+              "torque_nm": 183,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "VVT-i EFI",
+              "engine_position": "Front Longitudinal",
+              "emission_standard": "Euro 4"
+            },
+            {
+              "cc": 2494,
+              "engine_code": "2KD-FTV",
+              "fuel_type": "Solar",
+              "transmissions": ["MT", "AT"],
+              "power_hp": 149,
+              "torque_nm": 343,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "D-4D Common Rail",
+              "engine_position": "Front Longitudinal",
+              "emission_standard": "Euro 4"
+            }
+          ],
+          "specifications": {
+            "wheel_size": "16-inch alloy",
+            "tyre_size": "215/60 R16",
+            "seats_material": "Fabric",
+            "seat_arrangement": "2-3-2",
+            "third_row_seat": "Foldable 50:50",
+            "audio_speakers": 6,
+            "infotainment_size": "7-inch",
+            "camera_type": "Rearview with guidelines",
+            "side_mirror": "Electric folding",
+            "window_control": "All doors",
+            "air_con_type": "Manual AC Dual Zone",
+            "steering_wheel": "3-spoke with audio control",
+            "instrument_cluster": "Analog + tachometer + MID color",
+            "safety_rating": "ASEAN NCAP 5-star (2016)"
+          }
+        },
+        {
+          "trim": "V",
+          "years": [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock",
+            "Dual Airbag",
+            "ABS",
+            "EBD",
+            "BA",
+            "VSC",
+            "HSA",
+            "ISOFIX",
+            "Alloy Wheel",
+            "Fog Lamp",
+            "Keyless Entry",
+            "Start Stop Button",
+            "Leather Seat",
+            "Camera Belakang",
+            "Audio Steering",
+            "Retractable",
+            "Sensor Parkir",
+            "DRL"
+          ],
+          "engines": [
+            {
+              "cc": 1998,
+              "engine_code": "1TR-FE",
+              "fuel_type": "Bensin",
+              "transmissions": ["MT", "AT"],
+              "power_hp": 139,
+              "torque_nm": 183,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "VVT-i EFI",
+              "engine_position": "Front Longitudinal",
+              "emission_standard": "Euro 4"
+            },
+            {
+              "cc": 2494,
+              "engine_code": "2KD-FTV",
+              "fuel_type": "Solar",
+              "transmissions": ["MT", "AT"],
+              "power_hp": 149,
+              "torque_nm": 343,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "D-4D Common Rail",
+              "engine_position": "Front Longitudinal",
+              "emission_standard": "Euro 4"
+            }
+          ],
+          "specifications": {
+            "wheel_size": "17-inch alloy",
+            "tyre_size": "215/55 R17",
+            "seats_material": "Leather",
+            "seat_arrangement": "2-3-2",
+            "third_row_seat": "Foldable 50:50",
+            "audio_speakers": 8,
+            "infotainment_size": "8-inch",
+            "camera_type": "Rearview with dynamic guidelines",
+            "key_system": "Smart entry & push start",
+            "side_mirror": "Electric folding with indicator & puddle lamp",
+            "window_control": "All doors with auto up/down",
+            "air_con_type": "Automatic Climate Control Dual Zone",
+            "steering_wheel": "4-spoke leather-wrapped",
+            "headlight_type": "Projector Halogen with LED DRL",
+            "daytime_running_lights": "LED",
+            "instrument_cluster": "Analog + tachometer + 4.2-inch MID color",
+            "power_outlet": "12V all rows + USB",
+            "roof_rails": "Standard",
+            "safety_rating": "ASEAN NCAP 5-star (2016)"
+          }
+        },
+        {
+          "trim": "Q",
+          "years": [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock",
+            "Dual Airbag",
+            "ABS",
+            "EBD",
+            "BA",
+            "VSC",
+            "HSA",
+            "ISOFIX",
+            "Alloy Wheel",
+            "Fog Lamp",
+            "Keyless Entry",
+            "Start Stop Button",
+            "Leather Seat",
+            "Camera Belakang",
+            "Audio Steering",
+            "Retractable",
+            "Sensor Parkir",
+            "DRL",
+            "Blind Spot",
+            "Wireless Charge",
+            "Camera 360"
+          ],
+          "engines": [
+            {
+              "cc": 2494,
+              "engine_code": "2KD-FTV",
+              "fuel_type": "Solar",
+              "transmissions": ["AT"],
+              "power_hp": 149,
+              "torque_nm": 343,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "D-4D Common Rail",
+              "engine_position": "Front Longitudinal",
+              "emission_standard": "Euro 4"
+            }
+          ],
+          "specifications": {
+            "wheel_size": "17-inch alloy (premium design)",
+            "tyre_size": "215/55 R17",
+            "seats_material": "Leather (ventilated)",
+            "seat_arrangement": "2-3-2",
+            "third_row_seat": "Foldable 50:50",
+            "audio_speakers": 9,
+            "infotainment_size": "9-inch",
+            "camera_type": "360-degree panoramic view",
+            "key_system": "Smart entry & push start",
+            "side_mirror": "Electric folding auto-dimming with indicator",
+            "window_control": "All doors with auto up/down",
+            "air_con_type": "Automatic Climate Control Dual Zone",
+            "steering_wheel": "4-spoke leather wrapped with heating",
+            "headlight_type": "Full LED Projector",
+            "daytime_running_lights": "LED Sequential",
+            "instrument_cluster": "Analog + tachometer + 7-inch MID color",
+            "power_outlet": "12V all rows + USB all rows",
+            "roof_rails": "Standard",
+            "wireless_charging": "Qi wireless charging pad",
+            "blind_spot_sensor": "Rear cross-traffic alert",
+            "safety_rating": "ASEAN NCAP 5-star (2016)",
+            "paddle_shifter": "Available (AT)",
+            "exhaust_system": "Chrome dual tip"
+          }
+        }
+      ]
+    },
+
+    {
+      "name": "Innova Zenix / AN160 (2022-Sekarang)",
+      "year_start": 2022,
+      "year_end": null,
+
+      "specifications": {
+        "drive": "FWD",
+        "platform": "TNGA-C (Toyota New Global Architecture)",
+        "suspension_front": "MacPherson Strut",
+        "suspension_rear": "Torsion Beam",
+        "brake_front": "Ventilated Disc",
+        "brake_rear": "Disc",
+        "length_mm": 4755,
+        "width_mm": 1850,
+        "height_mm": 1795,
+        "wheelbase_mm": 2850,
+        "ground_clearance_mm": 185,
+        "fuel_tank_l": 52,
+        "kerb_weight_kg": 1630,
+        "turning_radius_m": 5.5,
+        "drag_coefficient": 0.29,
+        "boot_space_l": 213
+      },
+
+      "variants": [
+        {
+          "trim": "G",
+          "years": [2022, 2023, 2024],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock",
+            "Dual Airbag",
+            "ABS",
+            "EBD",
+            "BA",
+            "VSC",
+            "HSA",
+            "ISOFIX",
+            "Alloy Wheel",
+            "Fog Lamp",
+            "Camera Belakang",
+            "Audio Steering",
+            "Start Stop Button",
+            "Keyless Entry",
+            "DRL"
+          ],
+          "engines": [
+            {
+              "cc": 1987,
+              "engine_code": "M20A-FKS",
+              "fuel_type": "Bensin",
+              "transmissions": ["CVT"],
+              "power_hp": 171,
+              "torque_nm": 205,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "Dual VVT-iE D-4ST",
+              "engine_position": "Front Transverse",
+              "emission_standard": "Euro 4",
+              "compression_ratio": "13.0:1"
+            }
+          ],
+          "specifications": {
+            "wheel_size": "17-inch alloy",
+            "tyre_size": "225/50 R17",
+            "seats_material": "Fabric",
+            "seat_arrangement": "2-3-2",
+            "third_row_seat": "Foldable 50:50",
+            "audio_speakers": 6,
+            "infotainment_size": "9-inch",
+            "camera_type": "Rearview with dynamic guidelines",
+            "key_system": "Smart entry & push start",
+            "side_mirror": "Electric folding",
+            "window_control": "All doors",
+            "air_con_type": "Manual AC Dual Zone",
+            "steering_wheel": "3-spoke with audio & cruise control",
+            "headlight_type": "Projector Halogen with LED DRL",
+            "daytime_running_lights": "LED",
+            "instrument_cluster": "7-inch TFT MID",
+            "power_outlet": "USB-A all rows",
+            "safety_rating": "ASEAN NCAP 5-star (2023)",
+            "eco_indicator": "Eco Driving Indicator"
+          }
+        },
+        {
+          "trim": "V",
+          "years": [2022, 2023, 2024],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock",
+            "Dual Airbag",
+            "ABS",
+            "EBD",
+            "BA",
+            "VSC",
+            "HSA",
+            "ISOFIX",
+            "Alloy Wheel",
+            "Fog Lamp",
+            "Keyless Entry",
+            "Start Stop Button",
+            "Leather Seat",
+            "Camera Belakang",
+            "Audio Steering",
+            "Retractable",
+            "Sensor Parkir",
+            "DRL",
+            "Wireless Charge",
+            "Cruise Control"
+          ],
+          "engines": [
+            {
+              "cc": 1987,
+              "engine_code": "M20A-FKS",
+              "fuel_type": "Bensin",
+              "transmissions": ["CVT"],
+              "power_hp": 171,
+              "torque_nm": 205,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "Dual VVT-iE D-4ST",
+              "engine_position": "Front Transverse",
+              "emission_standard": "Euro 4",
+              "compression_ratio": "13.0:1"
+            }
+          ],
+          "specifications": {
+            "wheel_size": "17-inch alloy (premium)",
+            "tyre_size": "225/50 R17",
+            "seats_material": "Leather",
+            "seat_arrangement": "2-3-2",
+            "third_row_seat": "Foldable 50:50",
+            "audio_speakers": 8,
+            "infotainment_size": "10.1-inch",
+            "camera_type": "Rearview with dynamic guidelines",
+            "key_system": "Smart entry & push start",
+            "side_mirror": "Electric folding with indicator & puddle lamp",
+            "window_control": "All doors with auto up/down",
+            "air_con_type": "Automatic Climate Control Dual Zone",
+            "steering_wheel": "4-spoke leather with audio, cruise & paddle shift",
+            "headlight_type": "Full LED",
+            "daytime_running_lights": "LED",
+            "instrument_cluster": "7-inch TFT MID color",
+            "power_outlet": "USB-A & USB-C all rows",
+            "wireless_charging": "Qi wireless charging pad",
+            "paddle_shifter": "Available",
+            "safety_rating": "ASEAN NCAP 5-star (2023)",
+            "Apple CarPlay": "Wireless Apple CarPlay & Android Auto"
+          }
+        },
+        {
+          "trim": "HV V",
+          "years": [2022, 2023, 2024],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock",
+            "Dual Airbag",
+            "ABS",
+            "EBD",
+            "BA",
+            "VSC",
+            "HSA",
+            "ISOFIX",
+            "Alloy Wheel",
+            "Fog Lamp",
+            "Keyless Entry",
+            "Start Stop Button",
+            "Leather Seat",
+            "Camera Belakang",
+            "Audio Steering",
+            "Retractable",
+            "Sensor Parkir",
+            "DRL",
+            "Wireless Charge",
+            "Cruise Control",
+            "Blind Spot"
+          ],
+          "engines": [
+            {
+              "cc": 1987,
+              "engine_code": "M20A-FXS (Hybrid)",
+              "fuel_type": "Hybrid",
+              "transmissions": ["e-CVT"],
+              "power_hp": 186,
+              "torque_nm": 206,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "Atkinson Cycle + Electric Motor",
+              "engine_position": "Front Transverse",
+              "emission_standard": "Euro 4",
+              "compression_ratio": "14.0:1",
+              "electric_motor_power_hp": 112,
+              "battery_type": "Nickel-Metal Hydride (NiMH)"
+            }
+          ],
+          "specifications": {
+            "wheel_size": "17-inch alloy (hybrid exclusive)",
+            "tyre_size": "225/50 R17",
+            "seats_material": "Leather",
+            "seat_arrangement": "2-3-2",
+            "third_row_seat": "Foldable 50:50",
+            "audio_speakers": 8,
+            "infotainment_size": "10.1-inch",
+            "camera_type": "Rearview with dynamic guidelines",
+            "key_system": "Smart entry & push start",
+            "side_mirror": "Electric folding with indicator & puddle lamp",
+            "window_control": "All doors with auto up/down",
+            "air_con_type": "Automatic Climate Control Dual Zone",
+            "steering_wheel": "4-spoke leather with audio & cruise control",
+            "headlight_type": "Full LED",
+            "daytime_running_lights": "LED",
+            "instrument_cluster": "7-inch TFT MID + Hybrid display",
+            "power_outlet": "USB-A & USB-C all rows",
+            "wireless_charging": "Qi wireless charging pad",
+            "drive_modes": "Eco / Normal / Power",
+            "ev_mode": "EV Mode available at low speed",
+            "fuel_efficiency_kmpl": "20.8 (WLTC cycle)",
+            "safety_rating": "ASEAN NCAP 5-star (2023)",
+            "Apple CarPlay": "Wireless Apple CarPlay & Android Auto"
+          }
+        },
+        {
+          "trim": "HV Q",
+          "years": [2022, 2023, 2024],
+          "features": [
+            "AC",
+            "Power Steering",
+            "Power Window",
+            "Central Lock",
+            "Dual Airbag",
+            "ABS",
+            "EBD",
+            "BA",
+            "VSC",
+            "HSA",
+            "ISOFIX",
+            "Alloy Wheel",
+            "Fog Lamp",
+            "Keyless Entry",
+            "Start Stop Button",
+            "Leather Seat",
+            "Camera Belakang",
+            "Audio Steering",
+            "Retractable",
+            "Sensor Parkir",
+            "DRL",
+            "Wireless Charge",
+            "Cruise Control",
+            "Blind Spot",
+            "Camera 360",
+            "Apple CarPlay"
+          ],
+          "engines": [
+            {
+              "cc": 1987,
+              "engine_code": "M20A-FXS (Hybrid)",
+              "fuel_type": "Hybrid",
+              "transmissions": ["e-CVT"],
+              "power_hp": 186,
+              "torque_nm": 206,
+              "cylinders": 4,
+              "valves": 16,
+              "fuel_system": "Atkinson Cycle + Electric Motor",
+              "engine_position": "Front Transverse",
+              "emission_standard": "Euro 4",
+              "compression_ratio": "14.0:1",
+              "electric_motor_power_hp": 112,
+              "battery_type": "Nickel-Metal Hydride (NiMH)"
+            }
+          ],
+          "specifications": {
+            "wheel_size": "18-inch alloy (Q exclusive)",
+            "tyre_size": "225/45 R18",
+            "seats_material": "Leather (ventilated front)",
+            "seat_arrangement": "2-3-2",
+            "third_row_seat": "Foldable 50:50",
+            "audio_speakers": 9,
+            "infotainment_size": "10.1-inch",
+            "camera_type": "360-degree panoramic view",
+            "key_system": "Smart entry & push start",
+            "side_mirror": "Electric folding auto-dimming with indicator",
+            "window_control": "All doors with auto up/down",
+            "air_con_type": "Automatic Climate Control Dual Zone",
+            "steering_wheel": "4-spoke leather with audio & cruise control",
+            "headlight_type": "Full LED Adaptive",
+            "daytime_running_lights": "LED Sequential",
+            "instrument_cluster": "7-inch TFT MID + Hybrid display",
+            "power_outlet": "USB-A & USB-C all rows + 220V AC outlet",
+            "wireless_charging": "Qi wireless charging pad",
+            "drive_modes": "Eco / Normal / Power",
+            "ev_mode": "EV Mode available at low speed",
+            "fuel_efficiency_kmpl": "20.8 (WLTC cycle)",
+            "head_up_display": "Available",
+            "ambient_lighting": "Available",
+            "panoramic_roof": "Not available",
+            "safety_rating": "ASEAN NCAP 5-star (2023)",
+            "Toyota Safety Sense": "PCS, LDA, AHB"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -2,6 +2,7 @@
 
 namespace App\Filament\Resources\VehicleDetailResource\Pages;
 
+use App\Filament\Actions\ImportVehicleAction;
 use App\Filament\Resources\VehicleDetailResource;
 use Filament\Actions;
 use Filament\Resources\Pages\ListRecords;
@@ -14,6 +15,7 @@ class ListVehicleDetails extends ListRecords
     {
         return [
             Actions\CreateAction::make(),
+            ImportVehicleAction::make(),
         ];
     }
 }
