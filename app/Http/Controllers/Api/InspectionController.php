@@ -75,7 +75,7 @@ class InspectionController extends Controller
     {
         try {
             // Load vehicle detail dengan relasi yang diperlukan
-            $vehicleDetail = VehicleDetail::with(['brand', 'model', 'type', 'transmission', 'features'])
+            $vehicleDetail = VehicleDetail::with(['brand', 'model', 'type',  'type.typeBody', 'transmission', 'features'])
                 ->findOrFail($id);
 
             // Ambil data fitur yang aktif
@@ -98,6 +98,8 @@ class InspectionController extends Controller
                 
                 // Data transmission
                 'transmission' => $vehicleDetail->transmission?->name,
+
+                'segment' => $vehicleDetail->type?->typeBody?->name,
                 
                 'is_active' => $vehicleDetail->is_active,
                 
@@ -129,7 +131,7 @@ class InspectionController extends Controller
     {
         try {
             // Load vehicle detail dengan relasi yang diperlukan
-            $vehicleDetail = VehicleDetail::with(['brand', 'model', 'type', 'transmission', 'features'])
+            $vehicleDetail = VehicleDetail::with(['brand', 'model', 'type', 'type.typeBody','transmission', 'features'])
                 ->findOrFail($id);
             // Format data untuk inspection form
             $data = [
@@ -163,6 +165,8 @@ class InspectionController extends Controller
                     'fuel_type' => $vehicleDetail->fuel_type,
 
                     'market_period' => $vehicleDetail->market_period,
+
+                    'segment' => $vehicleDetail->type?->typeBody?->name,
 
                     'vehicle_id' => $vehicleDetail->id,
 
